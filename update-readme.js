@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const GITHUB_USERNAME = 'jovd83';
-const TARGET_TOPICS = ['agent-skill', 'agent-skills', 'agentskill', 'agentskills'];
+const TARGET_TOPICS = ['agent-skill', 'agent-skills', 'agentskill', 'agentskills', 'agent-skills-helper', 'agent-skill-helper'];
 
 // Define headers for authentication if token is provided
 const headers = {
@@ -24,10 +24,10 @@ async function fetchAllRepos() {
         if (!response.ok) {
             throw new Error(`GitHub API error: ${response.status} ${response.statusText}`);
         }
-        
+
         const repos = await response.json();
         if (repos.length === 0) break;
-        
+
         allRepos = allRepos.concat(repos);
         page++;
     }
@@ -42,7 +42,7 @@ function processRepos(repos, config) {
         if (!repo.topics) return false;
         return repo.topics.some(topic => TARGET_TOPICS.includes(topic.toLowerCase()));
     });
-    
+
     console.log(`Found ${skillRepos.length} skill repositories.`);
 
     // Initialize categories structure
@@ -123,6 +123,11 @@ function generateMarkdown(outputData) {
             subData.repos.forEach(repo => {
                 const desc = repo.description ? repo.description : 'No description provided.';
                 markdown += `- **[${repo.name}](${repo.html_url})** — ${desc}\n\n`;
+
+                if (repo.topics && repo.topics.length > 0) {
+                    markdown += `  *Topics:* ${repo.topics.map(t => '\`' + t + '\`').join(', ')}\n\n`;
+                }
+
                 markdown += `  \`\`\`bash\n`;
                 markdown += `  npx skills@latest add ${GITHUB_USERNAME}/${repo.name}\n`;
                 markdown += `  \`\`\`\n\n`;
@@ -144,7 +149,7 @@ async function main() {
 
         const readmePath = path.join(__dirname, 'README.md');
         fs.writeFileSync(readmePath, readmeContent, 'utf8');
-        
+
         console.log('README.md successfully updated!');
     } catch (e) {
         console.error('Error updating skills:', e);
