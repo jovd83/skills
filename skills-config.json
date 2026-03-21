@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "name": "Software development",
+      "description": "Skills and agents related to the fundamental phases of the software development lifecycle. These skills assist from the initial ideation down to code construction, ensuring robust creation.",
+      "subcategories": [
+        {
+          "name": "Functional & business analysis",
+          "description": "These skills help with identifying business needs, determining solutions to business problems, and drafting functional requirements before jumping into code.",
+          "topics": ["functional-analysis", "business-analysis", "analysis", "requirements", "prd"]
+        },
+        {
+          "name": "Coding",
+          "description": "These skills act as an assistant to help you write new code, refactor existing structures, and generally improve your software architecture.",
+          "topics": ["coding", "development", "refactoring", "architecture", "programming"]
+        },
+        {
+          "name": "Software testing",
+          "description": "Focusing on quality assurance, these skills aid in generating and running tests, utilizing frameworks like Cypress or Playwright, and ensuring optimal coverage.",
+          "topics": ["software-testing", "testing", "unit-testing", "qa", "cypress", "playwright", "test-automation"]
+        }
+      ]
+    },
+    {
+      "name": "Agentic use",
+      "description": "Specialized skills used for enhancing AI agents' capabilities, focusing on how agents interact with their underlying systems and memory.",
+      "subcategories": [
+        {
+          "name": "Tooling & setup",
+          "description": "These skills help configure agent environments, set up guardrails, or create necessary boilerplate structures so the agent can operate safely and functionally.",
+          "topics": ["tooling", "setup", "configuration", "guardrails", "infrastructure"]
+        }
+      ]
+    }
+  ],
+  "defaultCategory": "Other",
+  "defaultSubcategory": "Uncategorized",
+  "defaultCategoryDescription": "Other assorted skills that don't fit into a specific predefined category.",
+  "defaultSubcategoryDescription": "Miscellaneous skills."
+}
