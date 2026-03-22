@@ -35,5 +35,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Auto-update agent skills README"
+            git pull --rebase
             git push
           fi
