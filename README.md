@@ -30,6 +30,14 @@ These skills help with identifying business needs, determining solutions to busi
 
 These skills act as an assistant to help you write new code, refactor existing structures, and generally improve your software architecture.
 
+- **[defect-lifecycle-agent-skill](https://github.com/jovd83/defect-lifecycle-agent-skill)** — AgentSkill for defect intake, approved bug fixing, regression hardening, traceable reporting, and tracker-ready export artifacts.
+
+  *Topics:* `agent-skills`, `bugfix`, `coding`, `defects`
+
+  ```bash
+  npx skills@latest add jovd83/defect-lifecycle-agent-skill
+  ```
+
 - **[principal-audit-refactor](https://github.com/jovd83/principal-audit-refactor)** — principal-audit-refactor is an Agent Skill for auditing a local codebase, producing an evidence-backed engineering review, and executing an approval-gated refactor plan.
 
   *Topics:* `agent-skills`, `auditing`, `coding`, `refactoring`, `technical-review`
@@ -41,6 +49,22 @@ These skills act as an assistant to help you write new code, refactor existing s
 ### Software testing
 
 Focusing on quality assurance, these skills aid in generating and running tests, utilizing frameworks like Cypress or Playwright, and ensuring optimal coverage.
+
+- **[stack-aware-unit-testing-skill](https://github.com/jovd83/stack-aware-unit-testing-skill)** — Stack-aware unit testing skill for inspecting repositories, selecting test frameworks, and authoring isolated tests without rewriting product code.
+
+  *Topics:* `agent-skills`, `component-testing`, `testing`, `unit-testing`
+
+  ```bash
+  npx skills@latest add jovd83/stack-aware-unit-testing-skill
+  ```
+
+- **[test-analysis-skill](https://github.com/jovd83/test-analysis-skill)** — Test analysis skill for reviewing requirements for clarity, testability, ambiguity, risk, and readiness before implementation.
+
+  *Topics:* `agent-skills`, `static-testing`, `test-analysis`, `testing`
+
+  ```bash
+  npx skills@latest add jovd83/test-analysis-skill
+  ```
 
 - **[restassured-skill](https://github.com/jovd83/restassured-skill)** — This repository provides a RestAssured-skill designed for AI coding assistants
 
@@ -72,14 +96,6 @@ Focusing on quality assurance, these skills aid in generating and running tests,
 
   ```bash
   npx skills@latest add jovd83/test-design-orchestrator
-  ```
-
-- **[test-analysis-skill](https://github.com/jovd83/test-analysis-skill)** — test-analysis-skill is an Agent Skill for test analysis: it inspect requirement quality, assess testability, surface delivery risk, and turn ambiguity into stakeholder questions.
-
-  *Topics:* `agent-skills`, `test-analysis`, `testing`
-
-  ```bash
-  npx skills@latest add jovd83/test-analysis-skill
   ```
 
 - **[automated-test-reviewer](https://github.com/jovd83/automated-test-reviewer)** — Explain, assess, and map automated tests with evidence-first Markdown reports.
