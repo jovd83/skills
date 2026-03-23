@@ -30,6 +30,14 @@ These skills help with identifying business needs, determining solutions to busi
 
 These skills act as an assistant to help you write new code, refactor existing structures, and generally improve your software architecture.
 
+- **[new-feature-sdlc-skill](https://github.com/jovd83/new-feature-sdlc-skill)** — An Agent Skill for orchestrating approved feature delivery in an existing codebase from discovery through implementation, verification, and closeout.
+
+  *Topics:* `agent-skills`, `coding`
+
+  ```bash
+  npx skills@latest add jovd83/new-feature-sdlc-skill
+  ```
+
 - **[defect-lifecycle-agent-skill](https://github.com/jovd83/defect-lifecycle-agent-skill)** — AgentSkill for defect intake, approved bug fixing, regression hardening, traceable reporting, and tracker-ready export artifacts.
 
   *Topics:* `agent-skills`, `bugfix`, `coding`, `defects`
