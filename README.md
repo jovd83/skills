@@ -58,6 +58,14 @@ These skills act as an assistant to help you write new code, refactor existing s
 
 Focusing on quality assurance, these skills aid in generating and running tests, utilizing frameworks like Cypress or Playwright, and ensuring optimal coverage.
 
+- **[test-artifact-export-skill](https://github.com/jovd83/test-artifact-export-skill)** — An Agent Skill for turning already-designed test cases into clean review artifacts or tool-ready export artifacts.
+
+  *Topics:* `agent-skill`, `bdd`, `tdd`, `testing`
+
+  ```bash
+  npx skills@latest add jovd83/test-artifact-export-skill
+  ```
+
 - **[stack-aware-unit-testing-skill](https://github.com/jovd83/stack-aware-unit-testing-skill)** — Stack-aware unit testing skill for inspecting repositories, selecting test frameworks, and authoring isolated tests without rewriting product code.
 
   *Topics:* `agent-skills`, `component-testing`, `testing`, `unit-testing`
