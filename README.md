@@ -10,6 +10,14 @@ Skills and agents related to the fundamental phases of the software development 
 
 These skills help with identifying business needs, determining solutions to business problems, and drafting functional requirements before jumping into code.
 
+- **[backlog-story-generator](https://github.com/jovd83/backlog-story-generator)** — Backlog Story Generator AgentSkill for epics, user stories, validation, and export workflows.
+
+  *Topics:* `agent-skills`, `analysis`, `epic`, `user-story`
+
+  ```bash
+  npx skills@latest add jovd83/backlog-story-generator
+  ```
+
 - **[diagram-generator](https://github.com/jovd83/diagram-generator)** — diagram-generator is an Agent Skill for turning grounded engineering artifacts into clear Mermaid-first software diagrams and compact documentation bundles.
 
   *Topics:* `agent-skills`, `analysis`, `diagrams`, `mermaid`
@@ -30,6 +38,14 @@ These skills help with identifying business needs, determining solutions to busi
 
 These skills act as an assistant to help you write new code, refactor existing structures, and generally improve your software architecture.
 
+- **[principal-audit-refactor](https://github.com/jovd83/principal-audit-refactor)** — principal-audit-refactor is an Agent Skill for auditing a local codebase, producing an evidence-backed engineering review, and executing an approval-gated refactor plan.
+
+  *Topics:* `agent-skills`, `auditing`, `coding`, `refactoring`, `technical-review`
+
+  ```bash
+  npx skills@latest add jovd83/principal-audit-refactor
+  ```
+
 - **[new-feature-sdlc-skill](https://github.com/jovd83/new-feature-sdlc-skill)** — An Agent Skill for orchestrating approved feature delivery in an existing codebase from discovery through implementation, verification, and closeout.
 
   *Topics:* `agent-skills`, `coding`
@@ -46,24 +62,16 @@ These skills act as an assistant to help you write new code, refactor existing s
   npx skills@latest add jovd83/defect-lifecycle-agent-skill
   ```
 
-- **[principal-audit-refactor](https://github.com/jovd83/principal-audit-refactor)** — principal-audit-refactor is an Agent Skill for auditing a local codebase, producing an evidence-backed engineering review, and executing an approval-gated refactor plan.
-
-  *Topics:* `agent-skills`, `auditing`, `coding`, `refactoring`, `technical-review`
-
-  ```bash
-  npx skills@latest add jovd83/principal-audit-refactor
-  ```
-
 ### Software testing
 
 Focusing on quality assurance, these skills aid in generating and running tests, utilizing frameworks like Cypress or Playwright, and ensuring optimal coverage.
 
-- **[test-artifact-export-skill](https://github.com/jovd83/test-artifact-export-skill)** — An Agent Skill for turning already-designed test cases into clean review artifacts or tool-ready export artifacts.
+- **[Playwright-skill](https://github.com/jovd83/Playwright-skill)** — This repo provides Playwright skills designed for AI coding assistants
 
-  *Topics:* `agent-skill`, `bdd`, `tdd`, `testing`
+  *Topics:* `agent-skills`, `playwright`, `testing`
 
   ```bash
-  npx skills@latest add jovd83/test-artifact-export-skill
+  npx skills@latest add jovd83/Playwright-skill
   ```
 
 - **[stack-aware-unit-testing-skill](https://github.com/jovd83/stack-aware-unit-testing-skill)** — Stack-aware unit testing skill for inspecting repositories, selecting test frameworks, and authoring isolated tests without rewriting product code.
@@ -82,28 +90,28 @@ Focusing on quality assurance, these skills aid in generating and running tests,
   npx skills@latest add jovd83/test-analysis-skill
   ```
 
-- **[restassured-skill](https://github.com/jovd83/restassured-skill)** — This repository provides a RestAssured-skill designed for AI coding assistants
-
-  *Topics:* `agent-skills`, `restassured`, `testing`
-
-  ```bash
-  npx skills@latest add jovd83/restassured-skill
-  ```
-
-- **[Playwright-skill](https://github.com/jovd83/Playwright-skill)** — This repo provides Playwright skills designed for AI coding assistants
-
-  *Topics:* `agent-skills`, `playwright`, `testing`
-
-  ```bash
-  npx skills@latest add jovd83/Playwright-skill
-  ```
-
 - **[lifelike-synthetic-data-generator](https://github.com/jovd83/lifelike-synthetic-data-generator)** — An Agent Skill and reference repository for generating realistic synthetic datasets for tests, demos, sandboxes, seed data, and workflow simulation
 
   *Topics:* `agent-skills`, `synthetic-dataset-generation`, `testing`
 
   ```bash
   npx skills@latest add jovd83/lifelike-synthetic-data-generator
+  ```
+
+- **[test-artifact-export-skill](https://github.com/jovd83/test-artifact-export-skill)** — An Agent Skill for turning already-designed test cases into clean review artifacts or tool-ready export artifacts.
+
+  *Topics:* `agent-skill`, `bdd`, `tdd`, `testing`
+
+  ```bash
+  npx skills@latest add jovd83/test-artifact-export-skill
+  ```
+
+- **[restassured-skill](https://github.com/jovd83/restassured-skill)** — This repository provides a RestAssured-skill designed for AI coding assistants
+
+  *Topics:* `agent-skills`, `restassured`, `testing`
+
+  ```bash
+  npx skills@latest add jovd83/restassured-skill
   ```
 
 - **[test-design-orchestrator](https://github.com/jovd83/test-design-orchestrator)** — test-design-orchestrator is an AgentSkill for turning requirements into structured, traceable software test artifacts.
