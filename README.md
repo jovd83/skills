@@ -178,6 +178,14 @@ Other assorted skills that don't fit into a specific predefined category.
 
 Miscellaneous skills.
 
+- **[token-usage-cost-report](https://github.com/jovd83/token-usage-cost-report)** — Portable agent skill for auditable token usage and cost reporting across AI runtimes.
+
+  *Topics:* `agent-skills`, `tokens`
+
+  ```bash
+  npx skills@latest add jovd83/token-usage-cost-report
+  ```
+
 - **[shared-memory-janitor](https://github.com/jovd83/shared-memory-janitor)** — The Shared Memory Janitor is a dedicated, asynchronous background agent designed to keep your persistent global knowledge base clean, coherent, and optimized
 
   *Topics:* `agent`, `agent-skills-helper`, `memory`, `skill-behavior`
