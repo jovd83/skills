@@ -38,20 +38,20 @@ These skills help with identifying business needs, determining solutions to busi
 
 These skills act as an assistant to help you write new code, refactor existing structures, and generally improve your software architecture.
 
-- **[principal-audit-refactor](https://github.com/jovd83/principal-audit-refactor)** — principal-audit-refactor is an Agent Skill for auditing a local codebase, producing an evidence-backed engineering review, and executing an approval-gated refactor plan.
-
-  *Topics:* `agent-skills`, `auditing`, `coding`, `refactoring`, `technical-review`
-
-  ```bash
-  npx skills@latest add jovd83/principal-audit-refactor
-  ```
-
 - **[new-feature-sdlc-skill](https://github.com/jovd83/new-feature-sdlc-skill)** — An Agent Skill for orchestrating approved feature delivery in an existing codebase from discovery through implementation, verification, and closeout.
 
   *Topics:* `agent-skills`, `coding`
 
   ```bash
   npx skills@latest add jovd83/new-feature-sdlc-skill
+  ```
+
+- **[principal-audit-refactor](https://github.com/jovd83/principal-audit-refactor)** — principal-audit-refactor is an Agent Skill for auditing a local codebase, producing an evidence-backed engineering review, and executing an approval-gated refactor plan.
+
+  *Topics:* `agent-skills`, `auditing`, `coding`, `refactoring`, `technical-review`
+
+  ```bash
+  npx skills@latest add jovd83/principal-audit-refactor
   ```
 
 - **[defect-lifecycle-agent-skill](https://github.com/jovd83/defect-lifecycle-agent-skill)** — AgentSkill for defect intake, approved bug fixing, regression hardening, traceable reporting, and tracker-ready export artifacts.
@@ -74,14 +74,6 @@ Focusing on quality assurance, these skills aid in generating and running tests,
   npx skills@latest add jovd83/Playwright-skill
   ```
 
-- **[stack-aware-unit-testing-skill](https://github.com/jovd83/stack-aware-unit-testing-skill)** — Stack-aware unit testing skill for inspecting repositories, selecting test frameworks, and authoring isolated tests without rewriting product code.
-
-  *Topics:* `agent-skills`, `component-testing`, `testing`, `unit-testing`
-
-  ```bash
-  npx skills@latest add jovd83/stack-aware-unit-testing-skill
-  ```
-
 - **[test-analysis-skill](https://github.com/jovd83/test-analysis-skill)** — Test analysis skill for reviewing requirements for clarity, testability, ambiguity, risk, and readiness before implementation.
 
   *Topics:* `agent-skills`, `static-testing`, `test-analysis`, `testing`
@@ -96,6 +88,22 @@ Focusing on quality assurance, these skills aid in generating and running tests,
 
   ```bash
   npx skills@latest add jovd83/lifelike-synthetic-data-generator
+  ```
+
+- **[responsive-testing](https://github.com/jovd83/responsive-testing)** — Responsive testing skill for AI agents that need to inspect an existing frontend test stack, reuse or extend the right tests across multiple viewport classes, and generate normalized responsive testing reports for engineering and CI workflows.
+
+  *Topics:* `agent-skills`, `responsive`, `testing`
+
+  ```bash
+  npx skills@latest add jovd83/responsive-testing
+  ```
+
+- **[stack-aware-unit-testing-skill](https://github.com/jovd83/stack-aware-unit-testing-skill)** — Stack-aware unit testing skill for inspecting repositories, selecting test frameworks, and authoring isolated tests without rewriting product code.
+
+  *Topics:* `agent-skills`, `component-testing`, `testing`, `unit-testing`
+
+  ```bash
+  npx skills@latest add jovd83/stack-aware-unit-testing-skill
   ```
 
 - **[test-artifact-export-skill](https://github.com/jovd83/test-artifact-export-skill)** — An Agent Skill for turning already-designed test cases into clean review artifacts or tool-ready export artifacts.
