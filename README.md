@@ -66,6 +66,14 @@ These skills act as an assistant to help you write new code, refactor existing s
 
 Focusing on quality assurance, these skills aid in generating and running tests, utilizing frameworks like Cypress or Playwright, and ensuring optimal coverage.
 
+- **[Cypress-skill](https://github.com/jovd83/Cypress-skill)** — This repository provides Cypressskills designed for AI coding assistants
+
+  *Topics:* `agent-skills`, `cypress`
+
+  ```bash
+  npx skills@latest add jovd83/Cypress-skill
+  ```
+
 - **[Playwright-skill](https://github.com/jovd83/Playwright-skill)** — This repo provides Playwright skills designed for AI coding assistants
 
   *Topics:* `agent-skills`, `playwright`, `testing`
@@ -122,14 +130,6 @@ Focusing on quality assurance, these skills aid in generating and running tests,
   npx skills@latest add jovd83/junit5-skill
   ```
 
-- **[Cypress-skill](https://github.com/jovd83/Cypress-skill)** — This repository provides Cypressskills designed for AI coding assistants
-
-  *Topics:* `agent-skills`, `cypress`
-
-  ```bash
-  npx skills@latest add jovd83/Cypress-skill
-  ```
-
 - **[stack-aware-unit-testing-skill](https://github.com/jovd83/stack-aware-unit-testing-skill)** — Stack-aware unit testing skill for inspecting repositories, selecting test frameworks, and authoring isolated tests without rewriting product code.
 
   *Topics:* `agent-skills`, `component-testing`, `testing`, `unit-testing`
@@ -169,6 +169,14 @@ Specialized skills used for enhancing AI agents' capabilities, focusing on how a
 ### Tooling & setup
 
 These skills help configure agent environments, set up guardrails, or create necessary boilerplate structures so the agent can operate safely and functionally.
+
+- **[skill-dispatcher](https://github.com/jovd83/skill-dispatcher)** — Skill Dispatcher is a high-performance routing and orchestration layer for AI Agent ecosystems. It dynamically discovers, classifies, and sequences specialized AgentSkills to ensure optimal task execution with minimal risk.
+
+  *Topics:* `agent-behavior`, `agent-skills`, `dispatcher`
+
+  ```bash
+  npx skills@latest add jovd83/skill-dispatcher
+  ```
 
 - **[token-usage-cost-report](https://github.com/jovd83/token-usage-cost-report)** — Portable agent skill for auditable token usage and cost reporting across AI runtimes.
 
