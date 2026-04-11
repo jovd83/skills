@@ -66,6 +66,22 @@ These skills act as an assistant to help you write new code, refactor existing s
 
 Focusing on quality assurance, these skills aid in generating and running tests, utilizing frameworks like Cypress or Playwright, and ensuring optimal coverage.
 
+- **[tdd-test-case-reviewer](https://github.com/jovd83/tdd-test-case-reviewer)** — Agent Skill for structured review of drafted software test cases and test suites.
+
+  *Topics:* `agent-skills`, `tdd`, `test-review`, `testing`
+
+  ```bash
+  npx skills@latest add jovd83/tdd-test-case-reviewer
+  ```
+
+- **[agentic-bdd-test-case-mentor](https://github.com/jovd83/agentic-bdd-test-case-mentor)** — Agent Skill for reviewing, rewriting, generating, and formally assessing BDD and Gherkin artifacts.
+
+  *Topics:* `agent-skills`, `tdd`, `test-review`, `testing`
+
+  ```bash
+  npx skills@latest add jovd83/agentic-bdd-test-case-mentor
+  ```
+
 - **[Cypress-skill](https://github.com/jovd83/Cypress-skill)** — This repository provides Cypressskills designed for AI coding assistants
 
   *Topics:* `agent-skills`, `cypress`
