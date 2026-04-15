@@ -10,6 +10,14 @@ Skills and agents related to the fundamental phases of the software development 
 
 These skills help with identifying business needs, determining solutions to business problems, and drafting functional requirements before jumping into code.
 
+- **[PlantUML-skill](https://github.com/jovd83/PlantUML-skill)** — Enterprise-grade AgentSkill for professional PlantUML and C4 diagrams
+
+  *Topics:* `agent-skills`, `analysis`, `diagrams`, `plantuml`, `uml`
+
+  ```bash
+  npx skills@latest add jovd83/PlantUML-skill
+  ```
+
 - **[backlog-story-generator](https://github.com/jovd83/backlog-story-generator)** — Backlog Story Generator AgentSkill for epics, user stories, validation, and export workflows.
 
   *Topics:* `agent-skills`, `analysis`, `epic`, `user-story`
@@ -65,6 +73,14 @@ These skills act as an assistant to help you write new code, refactor existing s
 ### Software testing
 
 Focusing on quality assurance, these skills aid in generating and running tests, utilizing frameworks like Cypress or Playwright, and ensuring optimal coverage.
+
+- **[defensive-appsec-review-skill](https://github.com/jovd83/defensive-appsec-review-skill)** — Skill for authorized, non-destructive application security review
+
+  *Topics:* `agent-skills`, `security`, `testing`
+
+  ```bash
+  npx skills@latest add jovd83/defensive-appsec-review-skill
+  ```
 
 - **[tdd-test-case-reviewer](https://github.com/jovd83/tdd-test-case-reviewer)** — Agent Skill for structured review of drafted software test cases and test suites.
 
@@ -186,6 +202,14 @@ Specialized skills used for enhancing AI agents' capabilities, focusing on how a
 
 These skills help configure agent environments, set up guardrails, or create necessary boilerplate structures so the agent can operate safely and functionally.
 
+- **[shared-memory](https://github.com/jovd83/shared-memory)** — shared-memory is an Agent Skill for deliberate, auditable cross-agent memory.
+
+  *Topics:* `agent-behavior`, `agent-skills`, `memory`
+
+  ```bash
+  npx skills@latest add jovd83/shared-memory
+  ```
+
 - **[skill-dispatcher](https://github.com/jovd83/skill-dispatcher)** — Skill Dispatcher is a high-performance routing and orchestration layer for AI Agent ecosystems. It dynamically discovers, classifies, and sequences specialized AgentSkills to ensure optimal task execution with minimal risk.
 
   *Topics:* `agent-behavior`, `agent-skills`, `dispatcher`
@@ -200,14 +224,6 @@ These skills help configure agent environments, set up guardrails, or create nec
 
   ```bash
   npx skills@latest add jovd83/token-usage-cost-report
-  ```
-
-- **[shared-memory](https://github.com/jovd83/shared-memory)** — shared-memory is an Agent Skill for deliberate, auditable cross-agent memory.
-
-  *Topics:* `agent-behavior`, `agent-skills`, `memory`
-
-  ```bash
-  npx skills@latest add jovd83/shared-memory
   ```
 
 - **[modern-dependency-guard](https://github.com/jovd83/modern-dependency-guard)** — modern-dependency-guard is an Agent Skill for choosing current, well-supported dependencies without turning every request into a rewrite. 
