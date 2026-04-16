@@ -202,20 +202,20 @@ Specialized skills used for enhancing AI agents' capabilities, focusing on how a
 
 These skills help configure agent environments, set up guardrails, or create necessary boilerplate structures so the agent can operate safely and functionally.
 
-- **[shared-memory](https://github.com/jovd83/shared-memory)** — shared-memory is an Agent Skill for deliberate, auditable cross-agent memory.
-
-  *Topics:* `agent-behavior`, `agent-skills`, `memory`
-
-  ```bash
-  npx skills@latest add jovd83/shared-memory
-  ```
-
 - **[skill-dispatcher](https://github.com/jovd83/skill-dispatcher)** — Skill Dispatcher is a high-performance routing and orchestration layer for AI Agent ecosystems. It dynamically discovers, classifies, and sequences specialized AgentSkills to ensure optimal task execution with minimal risk.
 
   *Topics:* `agent-behavior`, `agent-skills`, `dispatcher`
 
   ```bash
   npx skills@latest add jovd83/skill-dispatcher
+  ```
+
+- **[shared-memory](https://github.com/jovd83/shared-memory)** — shared-memory is an Agent Skill for deliberate, auditable cross-agent memory.
+
+  *Topics:* `agent-behavior`, `agent-skills`, `memory`
+
+  ```bash
+  npx skills@latest add jovd83/shared-memory
   ```
 
 - **[token-usage-cost-report](https://github.com/jovd83/token-usage-cost-report)** — Portable agent skill for auditable token usage and cost reporting across AI runtimes.
