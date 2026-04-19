@@ -10,20 +10,20 @@ Skills and agents related to the fundamental phases of the software development 
 
 These skills help with identifying business needs, determining solutions to business problems, and drafting functional requirements before jumping into code.
 
-- **[PlantUML-skill](https://github.com/jovd83/PlantUML-skill)** — Enterprise-grade AgentSkill for professional PlantUML and C4 diagrams
-
-  *Topics:* `agent-skill`, `agent-skills`, `analysis`, `diagrams`, `harness-execution-layer`, `plantuml`, `uml`
-
-  ```bash
-  npx skills@latest add jovd83/PlantUML-skill
-  ```
-
 - **[backlog-story-generator](https://github.com/jovd83/backlog-story-generator)** — Backlog Story Generator AgentSkill for epics, user stories, validation, and export workflows.
 
   *Topics:* `agent-skills`, `analysis`, `epic`, `harness-execution-layer`, `user-story`
 
   ```bash
   npx skills@latest add jovd83/backlog-story-generator
+  ```
+
+- **[PlantUML-skill](https://github.com/jovd83/PlantUML-skill)** — Enterprise-grade AgentSkill for professional PlantUML and C4 diagrams
+
+  *Topics:* `agent-skill`, `agent-skills`, `analysis`, `diagrams`, `harness-execution-layer`, `plantuml`, `uml`
+
+  ```bash
+  npx skills@latest add jovd83/PlantUML-skill
   ```
 
 - **[diagram-generator](https://github.com/jovd83/diagram-generator)** — diagram-generator is an Agent Skill for turning grounded engineering artifacts into clear Mermaid-first software diagrams and compact documentation bundles.
@@ -202,12 +202,12 @@ Specialized skills used for enhancing AI agents' capabilities, focusing on how a
 
 These skills help configure agent environments, set up guardrails, or create necessary boilerplate structures so the agent can operate safely and functionally.
 
-- **[prompt-efficacy-scorer](https://github.com/jovd83/prompt-efficacy-scorer)** — prompt-efficacy-scorer is an AgentSkill for auditing prompts and producing safer, clearer, lower-waste rewrites
+- **[shared-memory](https://github.com/jovd83/shared-memory)** — shared-memory is an Agent Skill for deliberate, auditable cross-agent memory.
 
-  *Topics:* `agent-behavior`, `agent-skill`, `feedback-layer`, `harness-feedback-layer`
+  *Topics:* `agent-behavior`, `agent-skill`, `agent-skills`, `harness-information-layer`, `memory`
 
   ```bash
-  npx skills@latest add jovd83/prompt-efficacy-scorer
+  npx skills@latest add jovd83/shared-memory
   ```
 
 - **[skill-dispatcher](https://github.com/jovd83/skill-dispatcher)** — Skill Dispatcher is a high-performance routing and orchestration layer for AI Agent ecosystems. It dynamically discovers, classifies, and sequences specialized AgentSkills to ensure optimal task execution with minimal risk.
@@ -218,12 +218,12 @@ These skills help configure agent environments, set up guardrails, or create nec
   npx skills@latest add jovd83/skill-dispatcher
   ```
 
-- **[shared-memory](https://github.com/jovd83/shared-memory)** — shared-memory is an Agent Skill for deliberate, auditable cross-agent memory.
+- **[prompt-efficacy-scorer](https://github.com/jovd83/prompt-efficacy-scorer)** — prompt-efficacy-scorer is an AgentSkill for auditing prompts and producing safer, clearer, lower-waste rewrites
 
-  *Topics:* `agent-behavior`, `agent-skill`, `agent-skills`, `harness-information-layer`, `memory`
+  *Topics:* `agent-behavior`, `agent-skill`, `feedback-layer`, `harness-feedback-layer`
 
   ```bash
-  npx skills@latest add jovd83/shared-memory
+  npx skills@latest add jovd83/prompt-efficacy-scorer
   ```
 
 - **[modern-dependency-guard](https://github.com/jovd83/modern-dependency-guard)** — modern-dependency-guard is an Agent Skill for choosing current, well-supported dependencies without turning every request into a rewrite. 
@@ -250,20 +250,20 @@ Other assorted skills that don't fit into a specific predefined category.
 
 Miscellaneous skills.
 
-- **[context-density-optimizer](https://github.com/jovd83/context-density-optimizer)** — context-density-optimizer is an AgentSkill for pruning bloated working context before implementation, review, debugging, or planning work
-
-  *Topics:* `agent-skill`, `harness-information-layer`
-
-  ```bash
-  npx skills@latest add jovd83/context-density-optimizer
-  ```
-
 - **[release-manager-skill](https://github.com/jovd83/release-manager-skill)** — gent Skills-compatible package for disciplined GitHub release preparation
 
   *Topics:* `agent-skills`, `github`, `harness-execution-layer`, `release-management`
 
   ```bash
   npx skills@latest add jovd83/release-manager-skill
+  ```
+
+- **[context-density-optimizer](https://github.com/jovd83/context-density-optimizer)** — context-density-optimizer is an AgentSkill for pruning bloated working context before implementation, review, debugging, or planning work
+
+  *Topics:* `agent-skill`, `harness-information-layer`
+
+  ```bash
+  npx skills@latest add jovd83/context-density-optimizer
   ```
 
 - **[eu-ai-act-hitl-monitor-skill](https://github.com/jovd83/eu-ai-act-hitl-monitor-skill)** — No description provided.
