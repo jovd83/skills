@@ -146,20 +146,20 @@ Focusing on quality assurance, these skills aid in generating and running tests,
   npx skills@latest add jovd83/performance-testing-skill
   ```
 
-- **[junit5-skill](https://github.com/jovd83/junit5-skill)** — JUnit 5 skill pack for creating, debugging, modernizing, documenting, and routing JVM test workflows.
-
-  *Topics:* `agent-skill`, `agent-skills`, `harness-execution-layer`, `junit5`, `testing`
-
-  ```bash
-  npx skills@latest add jovd83/junit5-skill
-  ```
-
 - **[lifelike-synthetic-data-generator](https://github.com/jovd83/lifelike-synthetic-data-generator)** — Generates realistic synthetic datasets for tests and demos with seeded, locale-aware, and distribution-shaped data.
 
   *Topics:* `agent-skill`, `agent-skills`, `harness-execution-layer`, `synthetic-dataset-generation`, `testing`
 
   ```bash
   npx skills@latest add jovd83/lifelike-synthetic-data-generator
+  ```
+
+- **[junit5-skill](https://github.com/jovd83/junit5-skill)** — JUnit 5 skill pack for creating, debugging, modernizing, documenting, and routing JVM test workflows.
+
+  *Topics:* `agent-skill`, `agent-skills`, `harness-execution-layer`, `junit5`, `testing`
+
+  ```bash
+  npx skills@latest add jovd83/junit5-skill
   ```
 
 - **[defensive-appsec-review-skill](https://github.com/jovd83/defensive-appsec-review-skill)** — Authorized defensive AppSec review skill for repositories, APIs, CI/CD, IaC, and AI systems with findings-first output.
