@@ -202,20 +202,28 @@ Specialized skills used for enhancing AI agents' capabilities, focusing on how a
 
 These skills help configure agent environments, set up guardrails, or create necessary boilerplate structures so the agent can operate safely and functionally.
 
-- **[token-usage-cost-report](https://github.com/jovd83/token-usage-cost-report)** — Produces auditable token-usage and cost reports from runtime evidence, normalized usage bundles, and repository-level report sets.
-
-  *Topics:* `agent-behavior`, `agent-skill`, `agent-skills`, `harness-execution-layer`, `tokens`
-
-  ```bash
-  npx skills@latest add jovd83/token-usage-cost-report
-  ```
-
 - **[skill-dispatcher](https://github.com/jovd83/skill-dispatcher)** — High-performance routing engine that selects the best agent skill for a task and emits structured handoff decisions.
 
   *Topics:* `agent-behavior`, `agent-skill`, `agent-skills`, `dispatcher`, `harness-execution-layer`
 
   ```bash
   npx skills@latest add jovd83/skill-dispatcher
+  ```
+
+- **[shared-memory](https://github.com/jovd83/shared-memory)** — Manages durable cross-agent shared memory for stable conventions, reusable policies, and organization-wide operating rules.
+
+  *Topics:* `agent-behavior`, `agent-skill`, `agent-skills`, `harness-information-layer`, `memory`
+
+  ```bash
+  npx skills@latest add jovd83/shared-memory
+  ```
+
+- **[token-usage-cost-report](https://github.com/jovd83/token-usage-cost-report)** — Produces auditable token-usage and cost reports from runtime evidence, normalized usage bundles, and repository-level report sets.
+
+  *Topics:* `agent-behavior`, `agent-skill`, `agent-skills`, `harness-execution-layer`, `tokens`
+
+  ```bash
+  npx skills@latest add jovd83/token-usage-cost-report
   ```
 
 - **[modern-dependency-guard](https://github.com/jovd83/modern-dependency-guard)** — Reviews and modernizes stacks, packages, SDKs, and tooling before code is written against them.
@@ -240,14 +248,6 @@ These skills help configure agent environments, set up guardrails, or create nec
 
   ```bash
   npx skills@latest add jovd83/api-contract-sentinel
-  ```
-
-- **[shared-memory](https://github.com/jovd83/shared-memory)** — Manages durable cross-agent shared memory for stable conventions, reusable policies, and organization-wide operating rules.
-
-  *Topics:* `agent-behavior`, `agent-skill`, `agent-skills`, `harness-information-layer`, `memory`
-
-  ```bash
-  npx skills@latest add jovd83/shared-memory
   ```
 
 - **[prompt-efficacy-scorer](https://github.com/jovd83/prompt-efficacy-scorer)** — Scores and improves prompts for clarity, consistency, signal density, structure, and runtime fit.
