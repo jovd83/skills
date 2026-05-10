@@ -202,6 +202,14 @@ Specialized skills used for enhancing AI agents' capabilities, focusing on how a
 
 These skills help configure agent environments, set up guardrails, or create necessary boilerplate structures so the agent can operate safely and functionally.
 
+- **[skill-dispatcher](https://github.com/jovd83/skill-dispatcher)** — High-performance routing engine that selects the best agent skill for a task and emits structured handoff decisions.
+
+  *Topics:* `agent-behavior`, `agent-skill`, `agent-skills`, `dispatcher`, `harness-execution-layer`
+
+  ```bash
+  npx skills@latest add jovd83/skill-dispatcher
+  ```
+
 - **[prompt-efficacy-scorer](https://github.com/jovd83/prompt-efficacy-scorer)** — Scores and improves prompts for clarity, consistency, signal density, structure, and runtime fit.
 
   *Topics:* `agent-behavior`, `agent-skill`, `feedback-layer`, `harness-feedback-layer`
@@ -248,14 +256,6 @@ These skills help configure agent environments, set up guardrails, or create nec
 
   ```bash
   npx skills@latest add jovd83/api-contract-sentinel
-  ```
-
-- **[skill-dispatcher](https://github.com/jovd83/skill-dispatcher)** — High-performance routing engine that selects the best agent skill for a task and emits structured handoff decisions.
-
-  *Topics:* `agent-behavior`, `agent-skill`, `agent-skills`, `dispatcher`, `harness-execution-layer`
-
-  ```bash
-  npx skills@latest add jovd83/skill-dispatcher
   ```
 
 ## Other
