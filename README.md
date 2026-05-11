@@ -46,12 +46,12 @@ These skills help with identifying business needs, determining solutions to busi
 
 These skills act as an assistant to help you write new code, refactor existing structures, and generally improve your software architecture.
 
-- **[principal-audit-refactor](https://github.com/jovd83/principal-audit-refactor)** — Runs severity-ranked engineering audits and executes approval-gated refactors to raise prototype code to production quality.
+- **[defect-lifecycle-agent-skill](https://github.com/jovd83/defect-lifecycle-agent-skill)** — Guides defects from intake to verified fix with failing confirmation tests, scoped remediation, and structured resolution reporting.
 
-  *Topics:* `agent-skill`, `agent-skills`, `auditing`, `coding`, `harness-execution-layer`, `refactoring`, `technical-review`
+  *Topics:* `agent-skills`, `bugfix`, `coding`, `defects`, `harness-execution-layer`
 
   ```bash
-  npx skills@latest add jovd83/principal-audit-refactor
+  npx skills@latest add jovd83/defect-lifecycle-agent-skill
   ```
 
 - **[new-feature-sdlc-skill](https://github.com/jovd83/new-feature-sdlc-skill)** — Orchestrates approved feature delivery from discovery through implementation, testing, documentation, and release-ready closeout.
@@ -62,12 +62,12 @@ These skills act as an assistant to help you write new code, refactor existing s
   npx skills@latest add jovd83/new-feature-sdlc-skill
   ```
 
-- **[defect-lifecycle-agent-skill](https://github.com/jovd83/defect-lifecycle-agent-skill)** — Guides defects from intake to verified fix with failing confirmation tests, scoped remediation, and structured resolution reporting.
+- **[principal-audit-refactor](https://github.com/jovd83/principal-audit-refactor)** — Runs severity-ranked engineering audits and executes approval-gated refactors to raise prototype code to production quality.
 
-  *Topics:* `agent-skills`, `bugfix`, `coding`, `defects`, `harness-execution-layer`
+  *Topics:* `agent-skill`, `agent-skills`, `auditing`, `coding`, `harness-execution-layer`, `refactoring`, `technical-review`
 
   ```bash
-  npx skills@latest add jovd83/defect-lifecycle-agent-skill
+  npx skills@latest add jovd83/principal-audit-refactor
   ```
 
 ### Software testing
