@@ -266,6 +266,30 @@ Other assorted skills that don't fit into a specific predefined category.
 
 Miscellaneous skills.
 
+- **[skill-orchestrator](https://github.com/jovd83/skill-orchestrator)** — Execution layer for skill-dispatcher — runs multi-phase agent chains end-to-end with per-step telemetry and chain_id correlation
+
+  *Topics:* `agent-skill`, `agentskill`, `ai-orchestration`, `chain-execution`, `orchestrator`, `skill-dispatcher`
+
+  ```bash
+  npx skills@latest add jovd83/skill-orchestrator
+  ```
+
+- **[skill-yaml-cleanup](https://github.com/jovd83/skill-yaml-cleanup)** — Audit and reduce YAML frontmatter bloat in AgentSkill SKILL.md files. Automates deduplication, flattening, and noise removal.
+
+  *Topics:* `agent-skills`, `agentskills`, `automation`, `cli-tool`, `frontmatter-optimization`, `metadata-management`, `python`, `yaml`
+
+  ```bash
+  npx skills@latest add jovd83/skill-yaml-cleanup
+  ```
+
+- **[retro-board-creator](https://github.com/jovd83/retro-board-creator)** — Agent Skill for designing visually engaging agile/scrum retrospective boards (Draw.io, Mermaid, PNG/SVG, Microsoft Whiteboard) and turning completed retros into summaries, action items, and Jira/Confluence-ready output.
+
+  *Topics:* `agentskills`, `agile`, `ai-agent`, `anthropic`, `claude`, `claude-code`, `confluence`, `drawio`, `facilitation`, `jira`, `mermaid`, `retrospective`, `scrum`
+
+  ```bash
+  npx skills@latest add jovd83/retro-board-creator
+  ```
+
 - **[eu-ai-act-hitl-monitor-skill](https://github.com/jovd83/eu-ai-act-hitl-monitor-skill)** — Designs and validates human-oversight controls, handoff contracts, and review flows for EU AI Act-aligned agent systems.
 
   *Topics:* `agent-skills`, `hitl`
