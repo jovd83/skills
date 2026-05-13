@@ -202,6 +202,22 @@ Specialized skills used for enhancing AI agents' capabilities, focusing on how a
 
 These skills help configure agent environments, set up guardrails, or create necessary boilerplate structures so the agent can operate safely and functionally.
 
+- **[skill-yaml-cleanup](https://github.com/jovd83/skill-yaml-cleanup)** — Audit and reduce YAML frontmatter bloat in AgentSkill SKILL.md files. Automates deduplication, flattening, and noise removal.
+
+  *Topics:* `agent-behavior`, `agent-skills`, `agentskills`, `automation`, `cli-tool`, `frontmatter-optimization`, `metadata-management`, `python`, `yaml`
+
+  ```bash
+  npx skills@latest add jovd83/skill-yaml-cleanup
+  ```
+
+- **[skill-orchestrator](https://github.com/jovd83/skill-orchestrator)** — Execution layer for skill-dispatcher — runs multi-phase agent chains end-to-end with per-step telemetry and chain_id correlation
+
+  *Topics:* `agent-behavior`, `agent-skill`, `agentskill`, `ai-orchestration`, `chain-execution`, `orchestrator`, `skill-dispatcher`
+
+  ```bash
+  npx skills@latest add jovd83/skill-orchestrator
+  ```
+
 - **[skill-dispatcher](https://github.com/jovd83/skill-dispatcher)** — High-performance routing engine that selects the best agent skill for a task and emits structured handoff decisions.
 
   *Topics:* `agent-behavior`, `agent-skill`, `agent-skills`, `dispatcher`, `harness-execution-layer`
@@ -265,22 +281,6 @@ Other assorted skills that don't fit into a specific predefined category.
 ### Uncategorized
 
 Miscellaneous skills.
-
-- **[skill-orchestrator](https://github.com/jovd83/skill-orchestrator)** — Execution layer for skill-dispatcher — runs multi-phase agent chains end-to-end with per-step telemetry and chain_id correlation
-
-  *Topics:* `agent-skill`, `agentskill`, `ai-orchestration`, `chain-execution`, `orchestrator`, `skill-dispatcher`
-
-  ```bash
-  npx skills@latest add jovd83/skill-orchestrator
-  ```
-
-- **[skill-yaml-cleanup](https://github.com/jovd83/skill-yaml-cleanup)** — Audit and reduce YAML frontmatter bloat in AgentSkill SKILL.md files. Automates deduplication, flattening, and noise removal.
-
-  *Topics:* `agent-skills`, `agentskills`, `automation`, `cli-tool`, `frontmatter-optimization`, `metadata-management`, `python`, `yaml`
-
-  ```bash
-  npx skills@latest add jovd83/skill-yaml-cleanup
-  ```
 
 - **[retro-board-creator](https://github.com/jovd83/retro-board-creator)** — Agent Skill for designing visually engaging agile/scrum retrospective boards (Draw.io, Mermaid, PNG/SVG, Microsoft Whiteboard) and turning completed retros into summaries, action items, and Jira/Confluence-ready output.
 
