@@ -10,12 +10,12 @@ Skills covering the build phases of the software development lifecycle, from ana
 
 Skills for turning intent into requirements, acceptance criteria, user stories, and grounded architecture diagrams before any code is written.
 
-- **[PlantUML-skill](https://github.com/jovd83/PlantUML-skill)** — Professional PlantUML and C4 diagram skill for architecture visualization, sequence flows, and technical documentation.
+- **[plantuml-skill](https://github.com/jovd83/plantuml-skill)** — Professional PlantUML and C4 diagram skill for architecture visualization, sequence flows, and technical documentation.
 
   *Topics:* `agent-skills`, `analysis`, `diagrams`, `harness-execution-layer`, `plantuml`, `uml`
 
   ```bash
-  npx skills@latest add jovd83/PlantUML-skill
+  npx skills@latest add jovd83/plantuml-skill
   ```
 
 - **[diagram-generator](https://github.com/jovd83/diagram-generator)** — Creates grounded Mermaid-first software diagrams and compact architecture documentation from code, schemas, and requirements.
@@ -46,6 +46,14 @@ Skills for turning intent into requirements, acceptance criteria, user stories, 
 
 Skills that help write new code, audit and refactor existing structures, manage defects, and keep the stack modern.
 
+- **[bug-fix-lifecycle](https://github.com/jovd83/bug-fix-lifecycle)** — Guides defects from intake to verified fix with failing confirmation tests, scoped remediation, and structured resolution reporting.
+
+  *Topics:* `agent-skills`, `bugfix`, `coding`, `defects`, `harness-execution-layer`
+
+  ```bash
+  npx skills@latest add jovd83/bug-fix-lifecycle
+  ```
+
 - **[principal-audit-refactor](https://github.com/jovd83/principal-audit-refactor)** — Runs severity-ranked engineering audits and executes approval-gated refactors to raise prototype code to production quality.
 
   *Topics:* `agent-skill`, `agent-skills`, `auditing`, `coding`, `harness-execution-layer`, `refactoring`, `technical-review`
@@ -68,14 +76,6 @@ Skills that help write new code, audit and refactor existing structures, manage 
 
   ```bash
   npx skills@latest add jovd83/modern-dependency-guard
-  ```
-
-- **[defect-lifecycle-agent-skill](https://github.com/jovd83/defect-lifecycle-agent-skill)** — Guides defects from intake to verified fix with failing confirmation tests, scoped remediation, and structured resolution reporting.
-
-  *Topics:* `agent-skills`, `bugfix`, `coding`, `defects`, `harness-execution-layer`
-
-  ```bash
-  npx skills@latest add jovd83/defect-lifecycle-agent-skill
   ```
 
 ### Release & operations
@@ -150,6 +150,14 @@ Skills for analyzing requirements for testability, designing test cases with the
 
 Skills for authoring and operating test automation in specific frameworks (Cypress, Playwright, JUnit 5, Rest Assured) plus stack-aware unit and component tests.
 
+- **[playwright-skill](https://github.com/jovd83/playwright-skill)** — End-to-end Playwright skill pack for planning, authoring, debugging, documenting, and operationalizing test automation.
+
+  *Topics:* `agent-skill`, `agent-skills`, `harness-execution-layer`, `playwright`, `testing`
+
+  ```bash
+  npx skills@latest add jovd83/playwright-skill
+  ```
+
 - **[Cypress-skill](https://github.com/jovd83/Cypress-skill)** — End-to-end Cypress skill pack for planning, authoring, debugging, documenting, and operationalizing test automation.
 
   *Topics:* `agent-skill`, `agent-skills`, `cypress`, `harness-execution-layer`
@@ -172,14 +180,6 @@ Skills for authoring and operating test automation in specific frameworks (Cypre
 
   ```bash
   npx skills@latest add jovd83/restassured-skill
-  ```
-
-- **[Playwright-skill](https://github.com/jovd83/Playwright-skill)** — End-to-end Playwright skill pack for planning, authoring, debugging, documenting, and operationalizing test automation.
-
-  *Topics:* `agent-skill`, `agent-skills`, `harness-execution-layer`, `playwright`, `testing`
-
-  ```bash
-  npx skills@latest add jovd83/Playwright-skill
   ```
 
 - **[junit5-skill](https://github.com/jovd83/junit5-skill)** — JUnit 5 skill pack for creating, debugging, modernizing, documenting, and routing JVM test workflows.
@@ -322,20 +322,20 @@ Skills that route work to the right skill and execute multi-phase agent chains e
 
 Skills that score prompts for clarity and structure, and produce auditable token-usage and cost reports from runtime evidence.
 
-- **[prompt-efficacy-scorer](https://github.com/jovd83/prompt-efficacy-scorer)** — Scores and improves prompts for clarity, consistency, signal density, structure, and runtime fit.
-
-  *Topics:* `agent-behavior`, `agent-skill`, `feedback-layer`, `harness-feedback-layer`, `prompt-engineering`
-
-  ```bash
-  npx skills@latest add jovd83/prompt-efficacy-scorer
-  ```
-
 - **[token-usage-cost-report](https://github.com/jovd83/token-usage-cost-report)** — Produces auditable token-usage and cost reports from runtime evidence, normalized usage bundles, and repository-level report sets.
 
   *Topics:* `agent-behavior`, `agent-skill`, `agent-skills`, `harness-execution-layer`, `tokens`
 
   ```bash
   npx skills@latest add jovd83/token-usage-cost-report
+  ```
+
+- **[prompt-efficacy-scorer](https://github.com/jovd83/prompt-efficacy-scorer)** — Scores and improves prompts for clarity, consistency, signal density, structure, and runtime fit.
+
+  *Topics:* `agent-behavior`, `agent-skill`, `feedback-layer`, `harness-feedback-layer`, `prompt-engineering`
+
+  ```bash
+  npx skills@latest add jovd83/prompt-efficacy-scorer
   ```
 
 ### Skill maintenance
