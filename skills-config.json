@@ -2,59 +2,179 @@
   "categories": [
     {
       "name": "Software development",
-      "description": "Skills and agents related to the fundamental phases of the software development lifecycle. These skills assist from the initial ideation down to code construction, ensuring robust creation.",
+      "description": "Skills covering the build phases of the software development lifecycle, from analysis and coding through release.",
       "subcategories": [
         {
-          "name": "Functional & business analysis",
-          "description": "These skills help with identifying business needs, determining solutions to business problems, and drafting functional requirements before jumping into code.",
+          "name": "Analysis & requirements",
+          "description": "Skills for turning intent into requirements, acceptance criteria, user stories, and grounded architecture diagrams before any code is written.",
           "topics": [
-            "functional-analysis",
-            "business-analysis",
             "analysis",
+            "acceptance-criteria",
+            "epic",
+            "user-story",
             "requirements",
             "prd"
           ]
         },
         {
-          "name": "Coding",
-          "description": "These skills act as an assistant to help you write new code, refactor existing structures, and generally improve your software architecture.",
+          "name": "Coding, refactoring & delivery",
+          "description": "Skills that help write new code, audit and refactor existing structures, manage defects, and keep the stack modern.",
           "topics": [
             "coding",
-            "development",
             "refactoring",
-            "architecture",
-            "programming"
+            "auditing",
+            "technical-review",
+            "defects",
+            "bugfix",
+            "depencency-check"
           ]
         },
         {
-          "name": "Software testing",
-          "description": "Focusing on quality assurance, these skills aid in generating and running tests, utilizing frameworks like Cypress or Playwright, and ensuring optimal coverage.",
+          "name": "Release & operations",
+          "description": "Skills for preparing releases, changelogs, version bumps, and post-release CI follow-through.",
           "topics": [
-            "software-testing",
-            "testing",
-            "unit-testing",
-            "qa",
-            "cypress",
-            "playwright",
-            "test-automation"
+            "release-management"
           ]
         }
       ]
     },
     {
-      "name": "Agentic use",
-      "description": "Specialized skills used for enhancing AI agents' capabilities, focusing on how agents interact with their underlying systems and memory.",
+      "name": "Quality & testing",
+      "description": "Skills covering the full quality lifecycle: test analysis and design, automation frameworks, specialized testing disciplines, test data, and contract or design fidelity.",
       "subcategories": [
         {
-          "name": "Tooling & setup",
-          "description": "These skills help configure agent environments, set up guardrails, or create necessary boilerplate structures so the agent can operate safely and functionally.",
+          "name": "Test design & review",
+          "description": "Skills for analyzing requirements for testability, designing test cases with the right black-box technique, and reviewing drafted or automated tests for quality and coverage.",
           "topics": [
-            "tooling",
-            "setup",
-            "configuration",
-            "guardrails",
-            "infrastructure",
-            "agent-behavior"
+            "test-analysis",
+            "test-design",
+            "test-case",
+            "test-scenario",
+            "test-review",
+            "functional-review",
+            "bdd",
+            "tdd",
+            "static-testing"
+          ]
+        },
+        {
+          "name": "Test automation frameworks",
+          "description": "Skills for authoring and operating test automation in specific frameworks (Cypress, Playwright, JUnit 5, Rest Assured) plus stack-aware unit and component tests.",
+          "topics": [
+            "cypress",
+            "playwright",
+            "junit5",
+            "restassured",
+            "unit-testing",
+            "component-testing",
+            "test-automation"
+          ]
+        },
+        {
+          "name": "Specialized testing",
+          "description": "Skills for testing concerns that cut across features: performance, responsive behavior, accessibility, and security.",
+          "topics": [
+            "accessibility",
+            "a11y",
+            "performance",
+            "responsive",
+            "security"
+          ]
+        },
+        {
+          "name": "Test data",
+          "description": "Skills for generating realistic, seeded, and distribution-shaped synthetic data for tests, demos, and sandboxes.",
+          "topics": [
+            "synthetic-dataset-generation",
+            "test-data",
+            "fixtures"
+          ]
+        },
+        {
+          "name": "Design fidelity & contracts",
+          "description": "Skills that catch drift between an implementation and its source of truth — design systems, API contracts, schemas.",
+          "topics": [
+            "design-system",
+            "design-fidelity",
+            "api-contract",
+            "openapi"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Agent platform",
+      "description": "Skills that support the agent runtime itself: context and memory, orchestration, prompt and telemetry quality, and skill maintenance.",
+      "subcategories": [
+        {
+          "name": "Context & memory",
+          "description": "Skills that build, prune, persist, and clean up the information layer an agent reasons over.",
+          "topics": [
+            "harness-information-layer",
+            "memory",
+            "context",
+            "knowledge"
+          ]
+        },
+        {
+          "name": "Orchestration & dispatch",
+          "description": "Skills that route work to the right skill and execute multi-phase agent chains end-to-end.",
+          "topics": [
+            "dispatcher",
+            "orchestrator",
+            "ai-orchestration",
+            "chain-execution"
+          ]
+        },
+        {
+          "name": "Prompt & telemetry",
+          "description": "Skills that score prompts for clarity and structure, and produce auditable token-usage and cost reports from runtime evidence.",
+          "topics": [
+            "prompt-engineering",
+            "prompt-quality",
+            "tokens",
+            "telemetry"
+          ]
+        },
+        {
+          "name": "Skill maintenance",
+          "description": "Skills that maintain other skills — frontmatter hygiene, metadata cleanup, YAML optimization.",
+          "topics": [
+            "frontmatter-optimization",
+            "metadata-management",
+            "yaml"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Governance & compliance",
+      "description": "Skills that design human-oversight controls, handoff contracts, and review flows aligned with regulatory regimes such as the EU AI Act.",
+      "subcategories": [
+        {
+          "name": "Oversight & HITL",
+          "description": "Skills for human-in-the-loop oversight, handoff design, and regulatory-aligned review flows.",
+          "topics": [
+            "hitl",
+            "governance",
+            "compliance",
+            "eu-ai-act"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Agile facilitation",
+      "description": "Skills supporting agile ceremonies, retrospectives, and team facilitation artifacts.",
+      "subcategories": [
+        {
+          "name": "Ceremonies & retrospectives",
+          "description": "Skills for designing retrospective boards, capturing outcomes, and turning them into action items and tracker-ready output.",
+          "topics": [
+            "agile",
+            "retrospective",
+            "scrum",
+            "facilitation"
           ]
         }
       ]
