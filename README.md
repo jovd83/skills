@@ -382,3 +382,19 @@ Skills for designing retrospective boards, capturing outcomes, and turning them 
   npx skills@latest add jovd83/retro-board-creator
   ```
 
+## Smart Home
+
+Skills for smart home integration, devices, and home automation.
+
+### Home automation
+
+Skills related to home automation, device control, and smart integrations.
+
+- **[loxberry-integrator](https://github.com/jovd83/loxberry-integrator)** — Agent skill that generates GitHub-ready LoxBerry plugin projects integrating devices, services, APIs, or protocols (MQTT, REST, UDP, Modbus, WebSocket) with a Loxone Miniserver.
+
+  *Topics:* `agentskills`, `code-generation`, `homeautomation`, `loxberry`, `loxberry-plugin`, `modbus`, `mqtt`, `plugin-generator`, `smarthome`
+
+  ```bash
+  npx skills@latest add jovd83/loxberry-integrator
+  ```
+

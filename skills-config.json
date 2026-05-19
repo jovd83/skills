@@ -178,6 +178,22 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Smart Home",
+      "description": "Skills for smart home integration, devices, and home automation.",
+      "subcategories": [
+        {
+          "name": "Home automation",
+          "description": "Skills related to home automation, device control, and smart integrations.",
+          "topics": [
+            "smarthome",
+            "smart-home",
+            "homeautomation",
+            "home-automation"
+          ]
+        }
+      ]
     }
   ],
   "defaultCategory": "Other",
