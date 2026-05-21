@@ -398,3 +398,19 @@ Skills related to home automation, device control, and smart integrations.
   npx skills@latest add jovd83/loxberry-integrator
   ```
 
+## Other
+
+Other assorted skills that don't fit into a specific predefined category.
+
+### Uncategorized
+
+Miscellaneous skills.
+
+- **[slide-deck-preparation](https://github.com/jovd83/slide-deck-preparation)** — Convert raw content into high-fidelity, boardroom-ready slide deck outlines with strategic scorecards and automated grounding.
+
+  *Topics:* `agent-skill`, `agentskills`, `ai-alignment`, `knowledge-orchestration`, `presentation-strategy`, `slide-deck`
+
+  ```bash
+  npx skills@latest add jovd83/slide-deck-preparation
+  ```
+
