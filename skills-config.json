@@ -35,6 +35,26 @@
           "topics": [
             "release-management"
           ]
+        },
+        {
+          "name": "Project management",
+          "description": "Skills for planning project work, bootstrapping repositories, defining project governance, and translating approved plans into implementation tasks.",
+          "topics": [
+            "project-management",
+            "project-planning",
+            "project-governance",
+            "task-planning",
+            "project-bootstrap",
+            "repository-bootstrap"
+          ]
+        },
+        {
+          "name": "SDLC",
+          "description": "Skills that orchestrate or support the software development lifecycle end-to-end.",
+          "topics": [
+            "sdlc",
+            "spec-driven-development"
+          ]
         }
       ]
     },
@@ -196,19 +216,6 @@
           "description": "Skills for designing, reviewing, and documenting software architecture.",
           "topics": [
             "architecture"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "SDLC",
-      "description": "Skills covering the software development lifecycle end-to-end, spanning multiple phases of delivery.",
-      "subcategories": [
-        {
-          "name": "SDLC",
-          "description": "Skills that orchestrate or support the full software development lifecycle.",
-          "topics": [
-            "sdlc"
           ]
         }
       ]

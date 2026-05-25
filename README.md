@@ -90,6 +90,54 @@ Skills for preparing releases, changelogs, version bumps, and post-release CI fo
   npx skills@latest add jovd83/release-manager-skill
   ```
 
+### Project management
+
+Skills for planning project work, bootstrapping repositories, defining project governance, and translating approved plans into implementation tasks.
+
+- **[project-bootstrapper-skill](https://github.com/jovd83/project-bootstrapper-skill)** — AgentSkill for bootstrapping new project repositories with stack-specific scaffold adapters.
+
+  *Topics:* `agentskills`, `greenfield`, `repository-bootstrap`, `sdlc`
+
+  ```bash
+  npx skills@latest add jovd83/project-bootstrapper-skill
+  ```
+
+- **[project-genesis-chain](https://github.com/jovd83/project-genesis-chain)** — AgentSkill chain for greenfield project creation from idea to release-ready repository.
+
+  *Topics:* `agentskills`, `ai-agents`, `orchestration`, `project-bootstrap`, `sdlc`, `spec-driven-development`
+
+  ```bash
+  npx skills@latest add jovd83/project-genesis-chain
+  ```
+
+- **[project-constitution-skill](https://github.com/jovd83/project-constitution-skill)** — AgentSkill for creating practical project constitutions, quality gates, and skill-routing policy.
+
+  *Topics:* `agentskills`, `project-governance`, `sdlc`
+
+  ```bash
+  npx skills@latest add jovd83/project-constitution-skill
+  ```
+
+- **[implementation-task-planner-skill](https://github.com/jovd83/implementation-task-planner-skill)** — AgentSkill for turning approved specs and architecture plans into dependency-aware implementation tasks.
+
+  *Topics:* `agentskills`, `architecture`, `sdlc`, `task-planning`, `traceability`
+
+  ```bash
+  npx skills@latest add jovd83/implementation-task-planner-skill
+  ```
+
+### SDLC
+
+Skills that orchestrate or support the software development lifecycle end-to-end.
+
+- **[greenfield-architecture-planner](https://github.com/jovd83/greenfield-architecture-planner)** — AgentSkill for planning greenfield software architecture from specs, constraints, and acceptance criteria.
+
+  *Topics:* `agentskills`, `api-design`, `architecture`, `greenfield`, `sdlc`
+
+  ```bash
+  npx skills@latest add jovd83/greenfield-architecture-planner
+  ```
+
 ## Quality & testing
 
 Skills covering the full quality lifecycle: test analysis and design, automation frameworks, specialized testing disciplines, test data, and contract or design fidelity.
@@ -400,62 +448,6 @@ Skills for designing retrospective boards, capturing outcomes, and turning them 
 
   ```bash
   npx skills@latest add jovd83/retro-board-creator
-  ```
-
-## Architecture
-
-Skills focused on software architecture, system design, and architectural decision-making.
-
-### Architecture
-
-Skills for designing, reviewing, and documenting software architecture.
-
-- **[implementation-task-planner-skill](https://github.com/jovd83/implementation-task-planner-skill)** — AgentSkill for turning approved specs and architecture plans into dependency-aware implementation tasks.
-
-  *Topics:* `agentskills`, `architecture`, `sdlc`, `task-planning`, `traceability`
-
-  ```bash
-  npx skills@latest add jovd83/implementation-task-planner-skill
-  ```
-
-- **[greenfield-architecture-planner](https://github.com/jovd83/greenfield-architecture-planner)** — AgentSkill for planning greenfield software architecture from specs, constraints, and acceptance criteria.
-
-  *Topics:* `agentskills`, `api-design`, `architecture`, `greenfield`, `sdlc`
-
-  ```bash
-  npx skills@latest add jovd83/greenfield-architecture-planner
-  ```
-
-## SDLC
-
-Skills covering the software development lifecycle end-to-end, spanning multiple phases of delivery.
-
-### SDLC
-
-Skills that orchestrate or support the full software development lifecycle.
-
-- **[project-bootstrapper-skill](https://github.com/jovd83/project-bootstrapper-skill)** — AgentSkill for bootstrapping new project repositories with stack-specific scaffold adapters.
-
-  *Topics:* `agentskills`, `greenfield`, `repository-bootstrap`, `sdlc`
-
-  ```bash
-  npx skills@latest add jovd83/project-bootstrapper-skill
-  ```
-
-- **[project-genesis-chain](https://github.com/jovd83/project-genesis-chain)** — AgentSkill chain for greenfield project creation from idea to release-ready repository.
-
-  *Topics:* `agentskills`, `ai-agents`, `orchestration`, `project-bootstrap`, `sdlc`, `spec-driven-development`
-
-  ```bash
-  npx skills@latest add jovd83/project-genesis-chain
-  ```
-
-- **[project-constitution-skill](https://github.com/jovd83/project-constitution-skill)** — AgentSkill for creating practical project constitutions, quality gates, and skill-routing policy.
-
-  *Topics:* `agentskills`, `project-governance`, `sdlc`
-
-  ```bash
-  npx skills@latest add jovd83/project-constitution-skill
   ```
 
 ## Smart Home
