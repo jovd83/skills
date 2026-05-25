@@ -58,6 +58,14 @@
           ]
         },
         {
+          "name": "Test management & planning",
+          "description": "Skills for planning test efforts, defining test strategy, and organizing test management activities.",
+          "topics": [
+            "test-strategy",
+            "test-planning"
+          ]
+        },
+        {
           "name": "Test automation frameworks",
           "description": "Skills for authoring and operating test automation in specific frameworks (Cypress, Playwright, JUnit 5, Rest Assured) plus stack-aware unit and component tests.",
           "topics": [
@@ -175,6 +183,32 @@
             "retrospective",
             "scrum",
             "facilitation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Architecture",
+      "description": "Skills focused on software architecture, system design, and architectural decision-making.",
+      "subcategories": [
+        {
+          "name": "Architecture",
+          "description": "Skills for designing, reviewing, and documenting software architecture.",
+          "topics": [
+            "architecture"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SDLC",
+      "description": "Skills covering the software development lifecycle end-to-end, spanning multiple phases of delivery.",
+      "subcategories": [
+        {
+          "name": "SDLC",
+          "description": "Skills that orchestrate or support the full software development lifecycle.",
+          "topics": [
+            "sdlc"
           ]
         }
       ]
