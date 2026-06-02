@@ -262,6 +262,14 @@ Skills for authoring and operating test automation in specific frameworks (Cypre
 
 Skills for testing concerns that cut across features: performance, responsive behavior, accessibility, and security.
 
+- **[leak-canary](https://github.com/jovd83/leak-canary)** — Scan a project for data leaks — credentials, API keys, secrets, and GDPR/PII violations — before pushing to GitHub or sharing externally
+
+  *Topics:* `agentskill`, `credentials`, `data-leak`, `gdpr`, `pii`, `security`
+
+  ```bash
+  npx skills@latest add jovd83/leak-canary
+  ```
+
 - **[a11y-audit-agent-skill](https://github.com/jovd83/a11y-audit-agent-skill)** — Accessibility audit skill for web apps that combines automated scanning, manual verification, and remediation-ready WCAG reports.
 
   *Topics:* `accessibility`, `agent-skill`, `harness-execution-layer`
@@ -473,6 +481,14 @@ Other assorted skills that don't fit into a specific predefined category.
 ### Uncategorized
 
 Miscellaneous skills.
+
+- **[travelguide-copywriting-skill](https://github.com/jovd83/travelguide-copywriting-skill)** — Agent Skill: personalized, live-verified travel guides and roadbooks with age-gated routing and dietary-safety verification.
+
+  *Topics:* `agent-skill`, `agentskills`, `copywriting`, `travel`
+
+  ```bash
+  npx skills@latest add jovd83/travelguide-copywriting-skill
+  ```
 
 - **[slide-deck-preparation](https://github.com/jovd83/slide-deck-preparation)** — Convert raw content into high-fidelity, boardroom-ready slide deck outlines with strategic scorecards and automated grounding.
 
