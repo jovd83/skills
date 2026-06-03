@@ -482,6 +482,14 @@ Other assorted skills that don't fit into a specific predefined category.
 
 Miscellaneous skills.
 
+- **[travelguide-composer](https://github.com/jovd83/travelguide-composer)** — Structure & completeness orchestrator for premium travel guides and roadbooks. Parses itineraries, builds a numbered Gap Catalogue, delegates prose to travelguide-copywriter, and compiles DOCX/HTML output.
+
+  *Topics:* `agentskill`, `claude-code`, `claude-skill`, `docx`, `itinerary`, `roadbook`, `travel`, `travelguide`
+
+  ```bash
+  npx skills@latest add jovd83/travelguide-composer
+  ```
+
 - **[travelguide-copywriting-skill](https://github.com/jovd83/travelguide-copywriting-skill)** — Agent Skill: personalized, live-verified travel guides and roadbooks with age-gated routing and dietary-safety verification.
 
   *Topics:* `agent-skill`, `agentskills`, `copywriting`, `travel`
