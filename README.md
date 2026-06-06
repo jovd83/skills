@@ -482,6 +482,14 @@ Other assorted skills that don't fit into a specific predefined category.
 
 Miscellaneous skills.
 
+- **[pact-contract-testing](https://github.com/jovd83/pact-contract-testing)** — Consumer-driven contract testing with Pact & PactFlow — an AgentSkill family (core + 11 language packs): consumer/provider test scaffolding, schema-driven derivation, message pacts, bi-directional, Pact Broker, can-i-deploy/can-i-merge, CI/CD.
+
+  *Topics:* `agentskills`, `api-testing`, `consumer-driven-contracts`, `contract-testing`, `pact`, `pactflow`, `testing`
+
+  ```bash
+  npx skills@latest add jovd83/pact-contract-testing
+  ```
+
 - **[travelguide-composer](https://github.com/jovd83/travelguide-composer)** — Structure & completeness orchestrator for premium travel guides and roadbooks. Parses itineraries, builds a numbered Gap Catalogue, delegates prose to travelguide-copywriter, and compiles DOCX/HTML output.
 
   *Topics:* `agentskill`, `claude-code`, `claude-skill`, `docx`, `itinerary`, `roadbook`, `travel`, `travelguide`
