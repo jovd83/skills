@@ -262,6 +262,14 @@ Skills for authoring and operating test automation in specific frameworks (Cypre
 
 Skills for testing concerns that cut across features: performance, responsive behavior, accessibility, and security.
 
+- **[skill-vetting-reporter](https://github.com/jovd83/skill-vetting-reporter)** — Security & trust vetting for AgentSkills: mandatory open-source scanner gate (Cisco, NVIDIA SkillSpector, Snyk, sentry), OWASP Top 10 for Agentic Applications mapping, and tiered review reports.
+
+  *Topics:* `agent-skills`, `agentskills`, `ai-security`, `llm-security`, `owasp`, `security`, `skill-scanner`
+
+  ```bash
+  npx skills@latest add jovd83/skill-vetting-reporter
+  ```
+
 - **[leak-canary](https://github.com/jovd83/leak-canary)** — Scan a project for data leaks — credentials, API keys, secrets, and GDPR/PII violations — before pushing to GitHub or sharing externally
 
   *Topics:* `agentskill`, `credentials`, `data-leak`, `gdpr`, `pii`, `security`
