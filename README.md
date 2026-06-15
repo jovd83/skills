@@ -262,6 +262,14 @@ Skills for authoring and operating test automation in specific frameworks (Cypre
 
 Skills for testing concerns that cut across features: performance, responsive behavior, accessibility, and security.
 
+- **[performance-testing-skill](https://github.com/jovd83/performance-testing-skill)** — Plans, executes, and analyzes safe performance testing for APIs, web apps, services, and distributed systems.
+
+  *Topics:* `agent-skills`, `harness-execution-layer`, `performance`, `testing`
+
+  ```bash
+  npx skills@latest add jovd83/performance-testing-skill
+  ```
+
 - **[skill-vetting-reporter](https://github.com/jovd83/skill-vetting-reporter)** — Security & trust vetting for AgentSkills: mandatory open-source scanner gate (Cisco, NVIDIA SkillSpector, Snyk, sentry), OWASP Top 10 for Agentic Applications mapping, and tiered review reports.
 
   *Topics:* `agent-skills`, `agentskills`, `ai-security`, `llm-security`, `owasp`, `security`, `skill-scanner`
@@ -300,14 +308,6 @@ Skills for testing concerns that cut across features: performance, responsive be
 
   ```bash
   npx skills@latest add jovd83/responsive-testing
-  ```
-
-- **[performance-testing-skill](https://github.com/jovd83/performance-testing-skill)** — Plans, executes, and analyzes safe performance testing for APIs, web apps, services, and distributed systems.
-
-  *Topics:* `agent-skills`, `harness-execution-layer`, `performance`, `testing`
-
-  ```bash
-  npx skills@latest add jovd83/performance-testing-skill
   ```
 
 ### Test data
