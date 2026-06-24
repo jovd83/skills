@@ -406,6 +406,14 @@ Skills that route work to the right skill and execute multi-phase agent chains e
 
 Skills that score prompts for clarity and structure, and produce auditable token-usage and cost reports from runtime evidence.
 
+- **[How-did-you-do-that-skill](https://github.com/jovd83/How-did-you-do-that-skill)** — AgentSkill that reconstructs a logged AI session and writes a shareable 'how did you do that' explainer — prompts, model, token breakdown, tools/skills/MCP, timing, and a model-fit critique.
+
+  *Topics:* `agentskills`, `ai-documentation`, `prompt-engineering`
+
+  ```bash
+  npx skills@latest add jovd83/How-did-you-do-that-skill
+  ```
+
 - **[token-usage-cost-report](https://github.com/jovd83/token-usage-cost-report)** — Produces auditable token-usage and cost reports from runtime evidence, normalized usage bundles, and repository-level report sets.
 
   *Topics:* `agent-behavior`, `agent-skill`, `agent-skills`, `harness-execution-layer`, `tokens`
