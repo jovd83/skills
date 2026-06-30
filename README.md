@@ -46,6 +46,14 @@ Skills for turning intent into requirements, acceptance criteria, user stories, 
 
 Skills that help write new code, audit and refactor existing structures, manage defects, and keep the stack modern.
 
+- **[prototype-sketching-skill](https://github.com/jovd83/prototype-sketching-skill)** — Reversible, non-destructive hand-sketched skin (Balsamiq, Sharpie, Pencil, Doodle, Blueprint) for Angular/React/Vue/static web apps, with an adjustable 0-100% sketchiness level and an interactive overlay. Look-and-feel only.
+
+  *Topics:* `agent-skill`, `agentskills`, `coding`, `css`, `development`, `hand-drawn`, `prototype`, `sketch`, `svg-filter`, `wireframe`
+
+  ```bash
+  npx skills@latest add jovd83/prototype-sketching-skill
+  ```
+
 - **[bug-fix-lifecycle](https://github.com/jovd83/bug-fix-lifecycle)** — Guides defects from intake to verified fix with failing confirmation tests, scoped remediation, and structured resolution reporting.
 
   *Topics:* `agent-skills`, `bugfix`, `coding`, `defects`, `harness-execution-layer`
