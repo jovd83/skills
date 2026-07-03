@@ -226,6 +226,14 @@ Skills for planning test efforts, defining test strategy, and organizing test ma
 
 Skills for authoring and operating test automation in specific frameworks (Cypress, Playwright, JUnit 5, Rest Assured) plus stack-aware unit and component tests.
 
+- **[restassured-skill](https://github.com/jovd83/restassured-skill)** — Rest Assured skill pack for designing, implementing, documenting, and reporting API tests in Java and CI workflows.
+
+  *Topics:* `agent-skill`, `agent-skills`, `harness-execution-layer`, `restassured`, `testing`
+
+  ```bash
+  npx skills@latest add jovd83/restassured-skill
+  ```
+
 - **[playwright-skill](https://github.com/jovd83/playwright-skill)** — End-to-end Playwright skill pack for planning, authoring, debugging, documenting, and operationalizing test automation.
 
   *Topics:* `agent-skill`, `agent-skills`, `harness-execution-layer`, `playwright`, `testing`
@@ -248,14 +256,6 @@ Skills for authoring and operating test automation in specific frameworks (Cypre
 
   ```bash
   npx skills@latest add jovd83/stack-aware-unit-testing-skill
-  ```
-
-- **[restassured-skill](https://github.com/jovd83/restassured-skill)** — Rest Assured skill pack for designing, implementing, documenting, and reporting API tests in Java and CI workflows.
-
-  *Topics:* `agent-skill`, `agent-skills`, `harness-execution-layer`, `restassured`, `testing`
-
-  ```bash
-  npx skills@latest add jovd83/restassured-skill
   ```
 
 - **[junit5-skill](https://github.com/jovd83/junit5-skill)** — JUnit 5 skill pack for creating, debugging, modernizing, documenting, and routing JVM test workflows.
