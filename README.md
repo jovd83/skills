@@ -506,6 +506,14 @@ Other assorted skills that don't fit into a specific predefined category.
 
 Miscellaneous skills.
 
+- **[ti84-evo-scripter](https://github.com/jovd83/ti84-evo-scripter)** — AgentSkill that turns a plain-language calculation into a working, uploadable TI-Python program for the TI-84 Evo family - lint-clean, simulated against the target model's constraints, and verified before delivery.
+
+  *Topics:* `agent-skills`, `agentskill`, `calculator`, `circuitpython`, `claude-code`, `education`, `micropython`, `stem`, `ti-84`, `ti-python`
+
+  ```bash
+  npx skills@latest add jovd83/ti84-evo-scripter
+  ```
+
 - **[pact-contract-testing](https://github.com/jovd83/pact-contract-testing)** — Consumer-driven contract testing with Pact & PactFlow — an AgentSkill family (core + 11 language packs): consumer/provider test scaffolding, schema-driven derivation, message pacts, bi-directional, Pact Broker, can-i-deploy/can-i-merge, CI/CD.
 
   *Topics:* `agentskills`, `api-testing`, `consumer-driven-contracts`, `contract-testing`, `pact`, `pactflow`, `testing`
