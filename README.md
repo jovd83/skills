@@ -394,14 +394,6 @@ Skills that build, prune, persist, and clean up the information layer an agent r
 
 Skills that route work to the right skill and execute multi-phase agent chains end-to-end.
 
-- **[skill-orchestrator](https://github.com/jovd83/skill-orchestrator)** — Execution layer for skill-dispatcher — runs multi-phase agent chains end-to-end with per-step telemetry and chain_id correlation
-
-  *Topics:* `agent-behavior`, `agent-skill`, `agentskill`, `ai-orchestration`, `chain-execution`, `orchestrator`, `skill-dispatcher`
-
-  ```bash
-  npx skills@latest add jovd83/skill-orchestrator
-  ```
-
 - **[skill-dispatcher](https://github.com/jovd83/skill-dispatcher)** — High-performance routing engine that selects the best agent skill for a task and emits structured handoff decisions.
 
   *Topics:* `agent-behavior`, `agent-skill`, `agent-skills`, `dispatcher`, `harness-execution-layer`
@@ -410,9 +402,25 @@ Skills that route work to the right skill and execute multi-phase agent chains e
   npx skills@latest add jovd83/skill-dispatcher
   ```
 
+- **[skill-orchestrator](https://github.com/jovd83/skill-orchestrator)** — Execution layer for skill-dispatcher — runs multi-phase agent chains end-to-end with per-step telemetry and chain_id correlation
+
+  *Topics:* `agent-behavior`, `agent-skill`, `agentskill`, `ai-orchestration`, `chain-execution`, `orchestrator`, `skill-dispatcher`
+
+  ```bash
+  npx skills@latest add jovd83/skill-orchestrator
+  ```
+
 ### Prompt & telemetry
 
 Skills that score prompts for clarity and structure, and produce auditable token-usage and cost reports from runtime evidence.
+
+- **[gauntlet-loop](https://github.com/jovd83/gauntlet-loop)** — Turn any goal into a short prompt that makes your agent set a real quality bar, run builder and critic pairs, compare blind, and loop until it wins.
+
+  *Topics:* `agent-skills`, `agentic-loop`, `gauntlet-loop`, `prompt-engineering`
+
+  ```bash
+  npx skills@latest add jovd83/gauntlet-loop
+  ```
 
 - **[How-did-you-do-that-skill](https://github.com/jovd83/How-did-you-do-that-skill)** — AgentSkill that reconstructs a logged AI session and writes a shareable 'how did you do that' explainer — prompts, model, token breakdown, tools/skills/MCP, timing, and a model-fit critique.
 
