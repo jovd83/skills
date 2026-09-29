@@ -46,12 +46,12 @@ Skills for turning intent into requirements, acceptance criteria, user stories, 
 
 Skills that help write new code, audit and refactor existing structures, manage defects, and keep the stack modern.
 
-- **[modern-dependency-guard](https://github.com/jovd83/modern-dependency-guard)** — Reviews and modernizes stacks, packages, SDKs, and tooling before code is written against them.
+- **[prototype-sketching-skill](https://github.com/jovd83/prototype-sketching-skill)** — Reversible, non-destructive hand-sketched skin (Balsamiq, Sharpie, Pencil, Doodle, Blueprint) for Angular/React/Vue/static web apps, with an adjustable 0-100% sketchiness level and an interactive overlay. Look-and-feel only.
 
-  *Topics:* `agent-behavior`, `agent-skill`, `depencency-check`, `harness-execution-layer`
+  *Topics:* `agent-skill`, `agentskills`, `coding`, `css`, `development`, `hand-drawn`, `prototype`, `sketch`, `svg-filter`, `wireframe`
 
   ```bash
-  npx skills@latest add jovd83/modern-dependency-guard
+  npx skills@latest add jovd83/prototype-sketching-skill
   ```
 
 - **[principal-audit-refactor](https://github.com/jovd83/principal-audit-refactor)** — Runs severity-ranked engineering audits and executes approval-gated refactors to raise prototype code to production quality.
@@ -70,20 +70,20 @@ Skills that help write new code, audit and refactor existing structures, manage 
   npx skills@latest add jovd83/new-feature-sdlc-skill
   ```
 
+- **[modern-dependency-guard](https://github.com/jovd83/modern-dependency-guard)** — Reviews and modernizes stacks, packages, SDKs, and tooling before code is written against them.
+
+  *Topics:* `agent-behavior`, `agent-skill`, `depencency-check`, `harness-execution-layer`
+
+  ```bash
+  npx skills@latest add jovd83/modern-dependency-guard
+  ```
+
 - **[bug-fix-lifecycle](https://github.com/jovd83/bug-fix-lifecycle)** — Guides defects from intake to verified fix with failing confirmation tests, scoped remediation, and structured resolution reporting.
 
   *Topics:* `agent-skills`, `bugfix`, `coding`, `defects`, `harness-execution-layer`
 
   ```bash
   npx skills@latest add jovd83/bug-fix-lifecycle
-  ```
-
-- **[prototype-sketching-skill](https://github.com/jovd83/prototype-sketching-skill)** — Reversible, non-destructive hand-sketched skin (Balsamiq, Sharpie, Pencil, Doodle, Blueprint) for Angular/React/Vue/static web apps, with an adjustable 0-100% sketchiness level and an interactive overlay. Look-and-feel only.
-
-  *Topics:* `agent-skill`, `agentskills`, `coding`, `css`, `development`, `hand-drawn`, `prototype`, `sketch`, `svg-filter`, `wireframe`
-
-  ```bash
-  npx skills@latest add jovd83/prototype-sketching-skill
   ```
 
 ### Release & operations
@@ -110,14 +110,6 @@ Skills for planning project work, bootstrapping repositories, defining project g
   npx skills@latest add jovd83/project-bootstrapper-skill
   ```
 
-- **[project-genesis-chain](https://github.com/jovd83/project-genesis-chain)** — AgentSkill chain for greenfield project creation from idea to release-ready repository.
-
-  *Topics:* `agentskills`, `ai-agents`, `orchestration`, `project-bootstrap`, `sdlc`, `spec-driven-development`
-
-  ```bash
-  npx skills@latest add jovd83/project-genesis-chain
-  ```
-
 - **[project-constitution-skill](https://github.com/jovd83/project-constitution-skill)** — AgentSkill for creating practical project constitutions, quality gates, and skill-routing policy.
 
   *Topics:* `agentskills`, `project-governance`, `sdlc`
@@ -126,12 +118,20 @@ Skills for planning project work, bootstrapping repositories, defining project g
   npx skills@latest add jovd83/project-constitution-skill
   ```
 
-- **[implementation-task-planner-skill](https://github.com/jovd83/implementation-task-planner-skill)** — AgentSkill for turning approved specs and architecture plans into dependency-aware implementation tasks.
+- **[implementation-task-planner](https://github.com/jovd83/implementation-task-planner)** — AgentSkill for turning approved specs and architecture plans into dependency-aware implementation tasks.
 
   *Topics:* `agentskills`, `architecture`, `sdlc`, `task-planning`, `traceability`
 
   ```bash
-  npx skills@latest add jovd83/implementation-task-planner-skill
+  npx skills@latest add jovd83/implementation-task-planner
+  ```
+
+- **[project-genesis-chain](https://github.com/jovd83/project-genesis-chain)** — AgentSkill chain for greenfield project creation from idea to release-ready repository.
+
+  *Topics:* `agentskills`, `ai-agents`, `orchestration`, `project-bootstrap`, `sdlc`, `spec-driven-development`
+
+  ```bash
+  npx skills@latest add jovd83/project-genesis-chain
   ```
 
 ### SDLC
@@ -154,6 +154,14 @@ Skills covering the full quality lifecycle: test analysis and design, automation
 
 Skills for analyzing requirements for testability, designing test cases with the right black-box technique, and reviewing drafted or automated tests for quality and coverage.
 
+- **[test-design-orchestrator](https://github.com/jovd83/test-design-orchestrator)** — Transforms requirements and business rules into structured software test artifacts using the right black-box design technique.
+
+  *Topics:* `agent-skills`, `harness-execution-layer`, `test-case`, `test-design`, `test-scenario`, `testing`
+
+  ```bash
+  npx skills@latest add jovd83/test-design-orchestrator
+  ```
+
 - **[test-case-reviewer](https://github.com/jovd83/test-case-reviewer)** — AgentSkill that reviews, scores and mentors drafted test cases, test suites and BDD/Gherkin scenarios against their requirements, and rewrites them on request.
 
   *Topics:* `agent-skills`, `agentskills`, `bdd`, `gherkin`, `harness-execution-layer`, `tdd`, `test-cases`, `test-design`, `test-review`, `testing`
@@ -170,12 +178,12 @@ Skills for analyzing requirements for testability, designing test cases with the
   npx skills@latest add jovd83/test-management-sync
   ```
 
-- **[tdd-test-case-reviewer](https://github.com/jovd83/tdd-test-case-reviewer)** — Archived: merged into jovd83/test-case-reviewer (v2.0.0), which reviews test cases and BDD scenarios in one skill.
+- **[test-analysis-skill](https://github.com/jovd83/test-analysis-skill)** — Analyzes requirements and use cases for ambiguity, testability, delivery risk, and missing stakeholder decisions.
 
-  *Topics:* `agent-skills`, `tdd`, `test-review`, `testing`
+  *Topics:* `agent-skills`, `harness-execution-layer`, `static-testing`, `test-analysis`, `testing`
 
   ```bash
-  npx skills@latest add jovd83/tdd-test-case-reviewer
+  npx skills@latest add jovd83/test-analysis-skill
   ```
 
 - **[automated-test-reviewer](https://github.com/jovd83/automated-test-reviewer)** — Explains automated tests in business language and reviews automation quality, coverage, and traceability.
@@ -186,33 +194,9 @@ Skills for analyzing requirements for testability, designing test cases with the
   npx skills@latest add jovd83/automated-test-reviewer
   ```
 
-- **[test-design-orchestrator](https://github.com/jovd83/test-design-orchestrator)** — Transforms requirements and business rules into structured software test artifacts using the right black-box design technique.
-
-  *Topics:* `agent-skills`, `harness-execution-layer`, `test-case`, `test-design`, `test-scenario`, `testing`
-
-  ```bash
-  npx skills@latest add jovd83/test-design-orchestrator
-  ```
-
-- **[test-analysis-skill](https://github.com/jovd83/test-analysis-skill)** — Analyzes requirements and use cases for ambiguity, testability, delivery risk, and missing stakeholder decisions.
-
-  *Topics:* `agent-skills`, `harness-execution-layer`, `static-testing`, `test-analysis`, `testing`
-
-  ```bash
-  npx skills@latest add jovd83/test-analysis-skill
-  ```
-
 ### Test management & planning
 
 Skills for planning test efforts, defining test strategy, and organizing test management activities.
-
-- **[test-lifecycle-skill](https://github.com/jovd83/test-lifecycle-skill)** — 13-phase test lifecycle orchestrator Agent Skill with mode-aware HITL gates
-
-  *Topics:* `agentskills`, `test-planning`
-
-  ```bash
-  npx skills@latest add jovd83/test-lifecycle-skill
-  ```
 
 - **[test-strategy-skill](https://github.com/jovd83/test-strategy-skill)** — AgentSkill that produces a structured, auditable test strategy: selects test levels and types, maps automation lanes, prioritizes scenarios by risk, derives exit criteria, and outputs strategy.md + strategy.json. Phase 4 of the test-lifecycle-skill chain.
 
@@ -222,9 +206,33 @@ Skills for planning test efforts, defining test strategy, and organizing test ma
   npx skills@latest add jovd83/test-strategy-skill
   ```
 
+- **[test-lifecycle-skill](https://github.com/jovd83/test-lifecycle-skill)** — 13-phase test lifecycle orchestrator Agent Skill with mode-aware HITL gates
+
+  *Topics:* `agentskills`, `test-planning`
+
+  ```bash
+  npx skills@latest add jovd83/test-lifecycle-skill
+  ```
+
 ### Test automation frameworks
 
 Skills for authoring and operating test automation in specific frameworks (Cypress, Playwright, JUnit 5, Rest Assured) plus stack-aware unit and component tests.
+
+- **[cypress-skill](https://github.com/jovd83/cypress-skill)** — End-to-end Cypress skill pack for planning, authoring, debugging, documenting, and operationalizing test automation.
+
+  *Topics:* `agent-skill`, `agent-skills`, `cypress`, `harness-execution-layer`
+
+  ```bash
+  npx skills@latest add jovd83/cypress-skill
+  ```
+
+- **[stack-aware-unit-testing-skill](https://github.com/jovd83/stack-aware-unit-testing-skill)** — Inspects a codebase, detects the test stack, and plans or writes isolated unit and component tests safely.
+
+  *Topics:* `agent-skill`, `agent-skills`, `component-testing`, `harness-execution-layer`, `testing`, `unit-testing`
+
+  ```bash
+  npx skills@latest add jovd83/stack-aware-unit-testing-skill
+  ```
 
 - **[restassured-skill](https://github.com/jovd83/restassured-skill)** — Rest Assured skill pack for designing, implementing, documenting, and reporting API tests in Java and CI workflows.
 
@@ -234,28 +242,12 @@ Skills for authoring and operating test automation in specific frameworks (Cypre
   npx skills@latest add jovd83/restassured-skill
   ```
 
-- **[Cypress-skill](https://github.com/jovd83/Cypress-skill)** — End-to-end Cypress skill pack for planning, authoring, debugging, documenting, and operationalizing test automation.
-
-  *Topics:* `agent-skill`, `agent-skills`, `cypress`, `harness-execution-layer`
-
-  ```bash
-  npx skills@latest add jovd83/Cypress-skill
-  ```
-
 - **[playwright-skill](https://github.com/jovd83/playwright-skill)** — End-to-end Playwright skill pack for planning, authoring, debugging, documenting, and operationalizing test automation.
 
   *Topics:* `agent-skill`, `agent-skills`, `harness-execution-layer`, `playwright`, `testing`
 
   ```bash
   npx skills@latest add jovd83/playwright-skill
-  ```
-
-- **[stack-aware-unit-testing-skill](https://github.com/jovd83/stack-aware-unit-testing-skill)** — Inspects a codebase, detects the test stack, and plans or writes isolated unit and component tests safely.
-
-  *Topics:* `agent-skill`, `agent-skills`, `component-testing`, `harness-execution-layer`, `testing`, `unit-testing`
-
-  ```bash
-  npx skills@latest add jovd83/stack-aware-unit-testing-skill
   ```
 
 - **[junit5-skill](https://github.com/jovd83/junit5-skill)** — JUnit 5 skill pack for creating, debugging, modernizing, documenting, and routing JVM test workflows.
@@ -270,28 +262,20 @@ Skills for authoring and operating test automation in specific frameworks (Cypre
 
 Skills for testing concerns that cut across features: performance, responsive behavior, accessibility, and security.
 
-- **[defensive-appsec-review-skill](https://github.com/jovd83/defensive-appsec-review-skill)** — Authorized defensive AppSec review skill for repositories, APIs, CI/CD, IaC, and AI systems with findings-first output.
-
-  *Topics:* `agent-skill`, `agent-skills`, `harness-feedback-layer`, `security`, `testing`
-
-  ```bash
-  npx skills@latest add jovd83/defensive-appsec-review-skill
-  ```
-
-- **[a11y-audit-agent-skill](https://github.com/jovd83/a11y-audit-agent-skill)** — Accessibility audit skill for web apps that combines automated scanning, manual verification, and remediation-ready WCAG reports.
-
-  *Topics:* `accessibility`, `agent-skill`, `harness-execution-layer`
-
-  ```bash
-  npx skills@latest add jovd83/a11y-audit-agent-skill
-  ```
-
 - **[skill-vetting-reporter](https://github.com/jovd83/skill-vetting-reporter)** — Security & trust vetting for AgentSkills: mandatory open-source scanner gate (Cisco, NVIDIA SkillSpector, Snyk, sentry), OWASP Top 10 for Agentic Applications mapping, and tiered review reports.
 
   *Topics:* `agent-skills`, `agentskills`, `ai-security`, `llm-security`, `owasp`, `security`, `skill-scanner`
 
   ```bash
   npx skills@latest add jovd83/skill-vetting-reporter
+  ```
+
+- **[responsive-testing](https://github.com/jovd83/responsive-testing)** — Plans and runs responsive frontend testing across devices and screen sizes, with normalized reporting outputs.
+
+  *Topics:* `agent-skills`, `harness-execution-layer`, `responsive`, `testing`
+
+  ```bash
+  npx skills@latest add jovd83/responsive-testing
   ```
 
 - **[performance-testing-skill](https://github.com/jovd83/performance-testing-skill)** — Plans, executes, and analyzes safe performance testing for APIs, web apps, services, and distributed systems.
@@ -302,6 +286,14 @@ Skills for testing concerns that cut across features: performance, responsive be
   npx skills@latest add jovd83/performance-testing-skill
   ```
 
+- **[defensive-appsec-review-skill](https://github.com/jovd83/defensive-appsec-review-skill)** — Authorized defensive AppSec review skill for repositories, APIs, CI/CD, IaC, and AI systems with findings-first output.
+
+  *Topics:* `agent-skill`, `agent-skills`, `harness-feedback-layer`, `security`, `testing`
+
+  ```bash
+  npx skills@latest add jovd83/defensive-appsec-review-skill
+  ```
+
 - **[leak-canary](https://github.com/jovd83/leak-canary)** — Scan a project for data leaks — credentials, API keys, secrets, and GDPR/PII violations — before pushing to GitHub or sharing externally
 
   *Topics:* `agentskill`, `credentials`, `data-leak`, `gdpr`, `pii`, `security`
@@ -310,12 +302,12 @@ Skills for testing concerns that cut across features: performance, responsive be
   npx skills@latest add jovd83/leak-canary
   ```
 
-- **[responsive-testing](https://github.com/jovd83/responsive-testing)** — Plans and runs responsive frontend testing across devices and screen sizes, with normalized reporting outputs.
+- **[a11y-audit-agent-skill](https://github.com/jovd83/a11y-audit-agent-skill)** — Accessibility audit skill for web apps that combines automated scanning, manual verification, and remediation-ready WCAG reports.
 
-  *Topics:* `agent-skills`, `harness-execution-layer`, `responsive`, `testing`
+  *Topics:* `accessibility`, `agent-skill`, `harness-execution-layer`
 
   ```bash
-  npx skills@latest add jovd83/responsive-testing
+  npx skills@latest add jovd83/a11y-audit-agent-skill
   ```
 
 ### Test data
@@ -358,30 +350,6 @@ Skills that support the agent runtime itself: context and memory, orchestration,
 
 Skills that build, prune, persist, and clean up the information layer an agent reasons over.
 
-- **[shared-memory](https://github.com/jovd83/shared-memory)** — Manages durable cross-agent shared memory for stable conventions, reusable policies, and organization-wide operating rules.
-
-  *Topics:* `agent-behavior`, `agent-skill`, `agent-skills`, `harness-information-layer`, `memory`
-
-  ```bash
-  npx skills@latest add jovd83/shared-memory
-  ```
-
-- **[codebase-context](https://github.com/jovd83/codebase-context)** — Builds concise repository context bundles covering structure, entry points, dependencies, tests, conventions, and risks.
-
-  *Topics:* `agent-skill`, `harness-information-layer`
-
-  ```bash
-  npx skills@latest add jovd83/codebase-context
-  ```
-
-- **[shared-memory-janitor](https://github.com/jovd83/shared-memory-janitor)** — Consolidates and cleans shared memory by merging duplicates, resolving conflicts, and removing non-reusable noise.
-
-  *Topics:* `agent`, `agent-skill`, `agent-skills-helper`, `harness-information-layer`, `memory`, `skill-behavior`
-
-  ```bash
-  npx skills@latest add jovd83/shared-memory-janitor
-  ```
-
 - **[context-density-optimizer](https://github.com/jovd83/context-density-optimizer)** — context-density-optimizer is an AgentSkill for pruning bloated working context before implementation, review, debugging, or planning work
 
   *Topics:* `agent-skill`, `harness-information-layer`
@@ -394,14 +362,6 @@ Skills that build, prune, persist, and clean up the information layer an agent r
 
 Skills that route work to the right skill and execute multi-phase agent chains end-to-end.
 
-- **[skill-dispatcher](https://github.com/jovd83/skill-dispatcher)** — High-performance routing engine that selects the best agent skill for a task and emits structured handoff decisions.
-
-  *Topics:* `agent-behavior`, `agent-skill`, `agent-skills`, `dispatcher`, `harness-execution-layer`
-
-  ```bash
-  npx skills@latest add jovd83/skill-dispatcher
-  ```
-
 - **[skill-orchestrator](https://github.com/jovd83/skill-orchestrator)** — Execution layer for skill-dispatcher — runs multi-phase agent chains end-to-end with per-step telemetry and chain_id correlation
 
   *Topics:* `agent-behavior`, `agent-skill`, `agentskill`, `ai-orchestration`, `chain-execution`, `orchestrator`, `skill-dispatcher`
@@ -410,24 +370,24 @@ Skills that route work to the right skill and execute multi-phase agent chains e
   npx skills@latest add jovd83/skill-orchestrator
   ```
 
+- **[skill-dispatcher](https://github.com/jovd83/skill-dispatcher)** — High-performance routing engine that selects the best agent skill for a task and emits structured handoff decisions.
+
+  *Topics:* `agent-behavior`, `agent-skill`, `agent-skills`, `dispatcher`, `harness-execution-layer`
+
+  ```bash
+  npx skills@latest add jovd83/skill-dispatcher
+  ```
+
 ### Prompt & telemetry
 
 Skills that score prompts for clarity and structure, and produce auditable token-usage and cost reports from runtime evidence.
 
-- **[token-usage-cost-report](https://github.com/jovd83/token-usage-cost-report)** — Produces auditable token-usage and cost reports from runtime evidence, normalized usage bundles, and repository-level report sets.
-
-  *Topics:* `agent-behavior`, `agent-skill`, `agent-skills`, `harness-execution-layer`, `tokens`
-
-  ```bash
-  npx skills@latest add jovd83/token-usage-cost-report
-  ```
-
-- **[How-did-you-do-that-skill](https://github.com/jovd83/How-did-you-do-that-skill)** — AgentSkill that reconstructs a logged AI session and writes a shareable 'how did you do that' explainer — prompts, model, token breakdown, tools/skills/MCP, timing, and a model-fit critique.
+- **[how-did-you-do-that](https://github.com/jovd83/how-did-you-do-that)** — AgentSkill that reconstructs a logged AI session and writes a shareable 'how did you do that' explainer — prompts, model, token breakdown, tools/skills/MCP, timing, and a model-fit critique.
 
   *Topics:* `agentskills`, `ai-documentation`, `prompt-engineering`
 
   ```bash
-  npx skills@latest add jovd83/How-did-you-do-that-skill
+  npx skills@latest add jovd83/how-did-you-do-that
   ```
 
 - **[gauntlet-loop](https://github.com/jovd83/gauntlet-loop)** — Turn any goal into a short prompt that makes your agent set a real quality bar, run builder and critic pairs, compare blind, and loop until it wins.
@@ -436,6 +396,14 @@ Skills that score prompts for clarity and structure, and produce auditable token
 
   ```bash
   npx skills@latest add jovd83/gauntlet-loop
+  ```
+
+- **[token-usage-cost-report](https://github.com/jovd83/token-usage-cost-report)** — Produces auditable token-usage and cost reports from runtime evidence, normalized usage bundles, and repository-level report sets.
+
+  *Topics:* `agent-behavior`, `agent-skill`, `agent-skills`, `harness-execution-layer`, `tokens`
+
+  ```bash
+  npx skills@latest add jovd83/token-usage-cost-report
   ```
 
 - **[prompt-efficacy-scorer](https://github.com/jovd83/prompt-efficacy-scorer)** — Scores and improves prompts for clarity, consistency, signal density, structure, and runtime fit.
@@ -530,27 +498,19 @@ Miscellaneous skills.
   npx skills@latest add jovd83/ti84-evo-scripter
   ```
 
-- **[pact-contract-testing](https://github.com/jovd83/pact-contract-testing)** — Consumer-driven contract testing with Pact & PactFlow — an AgentSkill family (core + 11 language packs): consumer/provider test scaffolding, schema-driven derivation, message pacts, bi-directional, Pact Broker, can-i-deploy/can-i-merge, CI/CD.
-
-  *Topics:* `agentskills`, `api-testing`, `consumer-driven-contracts`, `contract-testing`, `pact`, `pactflow`, `testing`
-
-  ```bash
-  npx skills@latest add jovd83/pact-contract-testing
-  ```
-
-- **[travelguide-composer](https://github.com/jovd83/travelguide-composer)** — Structure & completeness orchestrator for premium travel guides and roadbooks. Parses itineraries, builds a numbered Gap Catalogue, delegates prose to travelguide-copywriter, and compiles DOCX/HTML output.
-
-  *Topics:* `agentskill`, `claude-code`, `claude-skill`, `docx`, `itinerary`, `roadbook`, `travel`, `travelguide`
-
-  ```bash
-  npx skills@latest add jovd83/travelguide-composer
-  ```
-
 - **[slide-deck-preparation](https://github.com/jovd83/slide-deck-preparation)** — Convert raw content into high-fidelity, boardroom-ready slide deck outlines with strategic scorecards and automated grounding.
 
   *Topics:* `agent-skill`, `agentskills`, `ai-alignment`, `knowledge-orchestration`, `presentation-strategy`, `slide-deck`
 
   ```bash
   npx skills@latest add jovd83/slide-deck-preparation
+  ```
+
+- **[pact-contract-testing](https://github.com/jovd83/pact-contract-testing)** — Consumer-driven contract testing with Pact & PactFlow — an AgentSkill family (core + 11 language packs): consumer/provider test scaffolding, schema-driven derivation, message pacts, bi-directional, Pact Broker, can-i-deploy/can-i-merge, CI/CD.
+
+  *Topics:* `agentskills`, `api-testing`, `consumer-driven-contracts`, `contract-testing`, `pact`, `pactflow`, `testing`
+
+  ```bash
+  npx skills@latest add jovd83/pact-contract-testing
   ```
 
