@@ -46,20 +46,20 @@ Skills for turning intent into requirements, acceptance criteria, user stories, 
 
 Skills that help write new code, audit and refactor existing structures, manage defects, and keep the stack modern.
 
-- **[prototype-sketching-skill](https://github.com/jovd83/prototype-sketching-skill)** — Reversible, non-destructive hand-sketched skin (Balsamiq, Sharpie, Pencil, Doodle, Blueprint) for Angular/React/Vue/static web apps, with an adjustable 0-100% sketchiness level and an interactive overlay. Look-and-feel only.
-
-  *Topics:* `agent-skill`, `agentskills`, `coding`, `css`, `development`, `hand-drawn`, `prototype`, `sketch`, `svg-filter`, `wireframe`
-
-  ```bash
-  npx skills@latest add jovd83/prototype-sketching-skill
-  ```
-
 - **[principal-audit-refactor](https://github.com/jovd83/principal-audit-refactor)** — Runs severity-ranked engineering audits and executes approval-gated refactors to raise prototype code to production quality.
 
   *Topics:* `agent-skill`, `agent-skills`, `auditing`, `coding`, `harness-execution-layer`, `refactoring`, `technical-review`
 
   ```bash
   npx skills@latest add jovd83/principal-audit-refactor
+  ```
+
+- **[prototype-sketching-skill](https://github.com/jovd83/prototype-sketching-skill)** — Reversible, non-destructive hand-sketched skin (Balsamiq, Sharpie, Pencil, Doodle, Blueprint) for Angular/React/Vue/static web apps, with an adjustable 0-100% sketchiness level and an interactive overlay. Look-and-feel only.
+
+  *Topics:* `agent-skill`, `agentskills`, `coding`, `css`, `development`, `hand-drawn`, `prototype`, `sketch`, `svg-filter`, `wireframe`
+
+  ```bash
+  npx skills@latest add jovd83/prototype-sketching-skill
   ```
 
 - **[new-feature-sdlc-skill](https://github.com/jovd83/new-feature-sdlc-skill)** — Orchestrates approved feature delivery from discovery through implementation, testing, documentation, and release-ready closeout.
