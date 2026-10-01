@@ -482,20 +482,20 @@ Other assorted skills that don't fit into a specific predefined category.
 
 Miscellaneous skills.
 
-- **[travelguide-copywriting-skill](https://github.com/jovd83/travelguide-copywriting-skill)** — Agent Skill: personalized, live-verified travel guides and roadbooks with age-gated routing and dietary-safety verification.
-
-  *Topics:* `agent-skill`, `agentskills`, `copywriting`, `travel`
-
-  ```bash
-  npx skills@latest add jovd83/travelguide-copywriting-skill
-  ```
-
 - **[ti84-evo-scripter](https://github.com/jovd83/ti84-evo-scripter)** — AgentSkill that turns a plain-language calculation into a working, uploadable TI-Python program for the TI-84 Evo family - lint-clean, simulated against the target model's constraints, and verified before delivery.
 
   *Topics:* `agent-skills`, `agentskill`, `calculator`, `circuitpython`, `claude-code`, `education`, `micropython`, `stem`, `ti-84`, `ti-python`
 
   ```bash
   npx skills@latest add jovd83/ti84-evo-scripter
+  ```
+
+- **[travelguide-copywriting-skill](https://github.com/jovd83/travelguide-copywriting-skill)** — Agent Skill: personalized, live-verified travel guides and roadbooks with age-gated routing and dietary-safety verification.
+
+  *Topics:* `agent-skill`, `agentskills`, `copywriting`, `travel`
+
+  ```bash
+  npx skills@latest add jovd83/travelguide-copywriting-skill
   ```
 
 - **[slide-deck-preparation](https://github.com/jovd83/slide-deck-preparation)** — Convert raw content into high-fidelity, boardroom-ready slide deck outlines with strategic scorecards and automated grounding.
