@@ -382,6 +382,14 @@ Skills that route work to the right skill and execute multi-phase agent chains e
 
 Skills that score prompts for clarity and structure, and produce auditable token-usage and cost reports from runtime evidence.
 
+- **[prompt-efficacy-scorer](https://github.com/jovd83/prompt-efficacy-scorer)** — Scores and improves prompts for clarity, consistency, signal density, structure, and runtime fit.
+
+  *Topics:* `agent-behavior`, `agent-skill`, `feedback-layer`, `harness-feedback-layer`, `prompt-engineering`
+
+  ```bash
+  npx skills@latest add jovd83/prompt-efficacy-scorer
+  ```
+
 - **[how-did-you-do-that](https://github.com/jovd83/how-did-you-do-that)** — AgentSkill that reconstructs a logged AI session and writes a shareable 'how did you do that' explainer — prompts, model, token breakdown, tools/skills/MCP, timing, and a model-fit critique.
 
   *Topics:* `agentskills`, `ai-documentation`, `prompt-engineering`
@@ -404,14 +412,6 @@ Skills that score prompts for clarity and structure, and produce auditable token
 
   ```bash
   npx skills@latest add jovd83/token-usage-cost-report
-  ```
-
-- **[prompt-efficacy-scorer](https://github.com/jovd83/prompt-efficacy-scorer)** — Scores and improves prompts for clarity, consistency, signal density, structure, and runtime fit.
-
-  *Topics:* `agent-behavior`, `agent-skill`, `feedback-layer`, `harness-feedback-layer`, `prompt-engineering`
-
-  ```bash
-  npx skills@latest add jovd83/prompt-efficacy-scorer
   ```
 
 ### Skill maintenance
