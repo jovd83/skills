@@ -10,6 +10,14 @@ Skills covering the build phases of the software development lifecycle, from ana
 
 Skills for turning intent into requirements, acceptance criteria, user stories, and grounded architecture diagrams before any code is written.
 
+- **[backlog-story-generator](https://github.com/jovd83/backlog-story-generator)** — Generates epics, backlog-ready user stories, and importable story packs from requirements, discovery notes, or codebases.
+
+  *Topics:* `agent-skills`, `analysis`, `epic`, `harness-execution-layer`, `user-story`
+
+  ```bash
+  npx skills@latest add jovd83/backlog-story-generator
+  ```
+
 - **[plantuml-skill](https://github.com/jovd83/plantuml-skill)** — Professional PlantUML and C4 diagram skill for architecture visualization, sequence flows, and technical documentation.
 
   *Topics:* `agent-skills`, `analysis`, `diagrams`, `harness-execution-layer`, `plantuml`, `uml`
@@ -26,14 +34,6 @@ Skills for turning intent into requirements, acceptance criteria, user stories, 
   npx skills@latest add jovd83/diagram-generator
   ```
 
-- **[backlog-story-generator](https://github.com/jovd83/backlog-story-generator)** — Generates epics, backlog-ready user stories, and importable story packs from requirements, discovery notes, or codebases.
-
-  *Topics:* `agent-skills`, `analysis`, `epic`, `harness-execution-layer`, `user-story`
-
-  ```bash
-  npx skills@latest add jovd83/backlog-story-generator
-  ```
-
 - **[acceptance-criteria-designer](https://github.com/jovd83/acceptance-criteria-designer)** — Turns raw product requirements into testable acceptance criteria, coverage notes, and machine-readable contracts.
 
   *Topics:* `acceptance-criteria`, `agent-skill`, `agent-skills`, `analysis`, `harness-feedback-layer`
@@ -45,6 +45,14 @@ Skills for turning intent into requirements, acceptance criteria, user stories, 
 ### Coding, refactoring & delivery
 
 Skills that help write new code, audit and refactor existing structures, manage defects, and keep the stack modern.
+
+- **[new-feature-sdlc-skill](https://github.com/jovd83/new-feature-sdlc-skill)** — Orchestrates approved feature delivery from discovery through implementation, testing, documentation, and release-ready closeout.
+
+  *Topics:* `agent-skill`, `agent-skills`, `coding`, `harness-execution-layer`
+
+  ```bash
+  npx skills@latest add jovd83/new-feature-sdlc-skill
+  ```
 
 - **[principal-audit-refactor](https://github.com/jovd83/principal-audit-refactor)** — Runs severity-ranked engineering audits and executes approval-gated refactors to raise prototype code to production quality.
 
@@ -60,14 +68,6 @@ Skills that help write new code, audit and refactor existing structures, manage 
 
   ```bash
   npx skills@latest add jovd83/prototype-sketching-skill
-  ```
-
-- **[new-feature-sdlc-skill](https://github.com/jovd83/new-feature-sdlc-skill)** — Orchestrates approved feature delivery from discovery through implementation, testing, documentation, and release-ready closeout.
-
-  *Topics:* `agent-skill`, `agent-skills`, `coding`, `harness-execution-layer`
-
-  ```bash
-  npx skills@latest add jovd83/new-feature-sdlc-skill
   ```
 
 - **[modern-dependency-guard](https://github.com/jovd83/modern-dependency-guard)** — Reviews and modernizes stacks, packages, SDKs, and tooling before code is written against them.
@@ -102,6 +102,14 @@ Skills for preparing releases, changelogs, version bumps, and post-release CI fo
 
 Skills for planning project work, bootstrapping repositories, defining project governance, and translating approved plans into implementation tasks.
 
+- **[project-genesis-chain](https://github.com/jovd83/project-genesis-chain)** — AgentSkill chain for greenfield project creation from idea to release-ready repository.
+
+  *Topics:* `agentskills`, `ai-agents`, `orchestration`, `project-bootstrap`, `sdlc`, `spec-driven-development`
+
+  ```bash
+  npx skills@latest add jovd83/project-genesis-chain
+  ```
+
 - **[project-bootstrapper-skill](https://github.com/jovd83/project-bootstrapper-skill)** — AgentSkill for bootstrapping new project repositories with stack-specific scaffold adapters.
 
   *Topics:* `agentskills`, `greenfield`, `repository-bootstrap`, `sdlc`
@@ -124,14 +132,6 @@ Skills for planning project work, bootstrapping repositories, defining project g
 
   ```bash
   npx skills@latest add jovd83/implementation-task-planner
-  ```
-
-- **[project-genesis-chain](https://github.com/jovd83/project-genesis-chain)** — AgentSkill chain for greenfield project creation from idea to release-ready repository.
-
-  *Topics:* `agentskills`, `ai-agents`, `orchestration`, `project-bootstrap`, `sdlc`, `spec-driven-development`
-
-  ```bash
-  npx skills@latest add jovd83/project-genesis-chain
   ```
 
 ### SDLC
