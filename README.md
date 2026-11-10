@@ -154,20 +154,20 @@ Skills covering the full quality lifecycle: test analysis and design, automation
 
 Skills for analyzing requirements for testability, designing test cases with the right black-box technique, and reviewing drafted or automated tests for quality and coverage.
 
-- **[test-design-orchestrator](https://github.com/jovd83/test-design-orchestrator)** — Transforms requirements and business rules into structured software test artifacts using the right black-box design technique.
-
-  *Topics:* `agent-skills`, `harness-execution-layer`, `test-case`, `test-design`, `test-scenario`, `testing`
-
-  ```bash
-  npx skills@latest add jovd83/test-design-orchestrator
-  ```
-
 - **[test-case-reviewer](https://github.com/jovd83/test-case-reviewer)** — AgentSkill that reviews, scores and mentors drafted test cases, test suites and BDD/Gherkin scenarios against their requirements, and rewrites them on request.
 
   *Topics:* `agent-skills`, `agentskills`, `bdd`, `gherkin`, `harness-execution-layer`, `tdd`, `test-cases`, `test-design`, `test-review`, `testing`
 
   ```bash
   npx skills@latest add jovd83/test-case-reviewer
+  ```
+
+- **[test-design-orchestrator](https://github.com/jovd83/test-design-orchestrator)** — Transforms requirements and business rules into structured software test artifacts using the right black-box design technique.
+
+  *Topics:* `agent-skills`, `harness-execution-layer`, `test-case`, `test-design`, `test-scenario`, `testing`
+
+  ```bash
+  npx skills@latest add jovd83/test-design-orchestrator
   ```
 
 - **[test-management-sync](https://github.com/jovd83/test-management-sync)** — AgentSkill that exports approved test cases, maps TestRail, Xray, Zephyr Scale and TestLink IDs back into tests, and publishes Playwright, Cypress, Rest Assured and JUnit results into those tools.
