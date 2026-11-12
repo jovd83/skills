@@ -482,6 +482,14 @@ Other assorted skills that don't fit into a specific predefined category.
 
 Miscellaneous skills.
 
+- **[travelguide-composer](https://github.com/jovd83/travelguide-composer)** — Structure & completeness orchestrator for premium travel guides and roadbooks. Parses itineraries, builds a numbered Gap Catalogue, delegates prose to travelguide-copywriter, and compiles DOCX/HTML output.
+
+  *Topics:* `agentskill`, `agentskills`, `claude-code`, `claude-skill`, `docx`, `itinerary`, `roadbook`, `travel`, `travelguide`
+
+  ```bash
+  npx skills@latest add jovd83/travelguide-composer
+  ```
+
 - **[ti84-evo-scripter](https://github.com/jovd83/ti84-evo-scripter)** — AgentSkill that turns a plain-language calculation into a working, uploadable TI-Python program for the TI-84 Evo family - lint-clean, simulated against the target model's constraints, and verified before delivery.
 
   *Topics:* `agent-skills`, `agentskill`, `calculator`, `circuitpython`, `claude-code`, `education`, `micropython`, `stem`, `ti-84`, `ti-python`
